@@ -6,6 +6,7 @@ require_once('../../../functions.php');
 $admin_email="justin@turnedaround.net";
 $title="Embyvites";
 $baseURL="https://tacohouse.us";
+$embyurl="https://tacohouse.us/emby";
 ?>
 <!DOCTYPE html>
 
@@ -85,7 +86,7 @@ $baseURL="https://tacohouse.us";
 			display:inline-block;
 		}
 	.leechers {
-		   text-align: center;
+			text-align: center;
     		color: #ffffff;
     		background: #545454;
     		padding-left: 5px;
@@ -93,7 +94,7 @@ $baseURL="https://tacohouse.us";
     		display: block;
     		border: 1px solid black;
     		border-radius: 4px;
-    		width: 700px;
+    		width: 400px;
     		margin-left: auto;
     		margin-right: auto;
 		}	
@@ -103,6 +104,8 @@ $baseURL="https://tacohouse.us";
     		margin-right: auto;
     		float: none;
 		}
+	#embylink:hover { color: black;};
+	a.glow { text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;};
 	</style>
 	<body>
 		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
@@ -111,10 +114,9 @@ $baseURL="https://tacohouse.us";
 				Welcome To Emby Signup!
 			</div><br>
 		<div class="leechers">
-			If you already know that you want what we have, click continue below. If you're not sure, check out
-			<a href="https://tacohouse.us/emby"><b>TacoHouse Emby</b></a> and sign is as the Leecher user. You will be able
-			to browse the library, but you will not be able to play anything. If you like what you see, then come back here 
-			and click continue below.
+			If you want to see what we have to offer, go to	<a id=embylink href="<?=$embyurl;?>"><b>TacoHouse Emby</b></a> and sign is as the 
+			<font color="#1c941c"><b>Leecher</font></b> user.  You will be able to browse the library, but you will not be able to play anything.  
+			If you like what you see, then come back here and click continue below.  If you know you want it then hit the signup button.
 		</div>
 		<br>
 		<div class="hp-link col-sm-6 col-lg-6">
