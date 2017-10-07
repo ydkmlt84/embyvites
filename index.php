@@ -112,7 +112,7 @@ $baseURL="https://tacohouse.us";
 			</div><br>
 		<div class="leechers">
 			If you already know that you want what we have, click continue below. If you're not sure, check out
-			<a href="https://tacohouse.us/emby">TacoHouse Emby</a> and sign is as the Leecher user. You will be able
+			<a href="https://tacohouse.us/emby"><b>TacoHouse Emby</b></a> and sign is as the Leecher user. You will be able
 			to browse the library, but you will not be able to play anything. If you like what you see, then come back here 
 			and click continue below.
 		</div>
