@@ -65,33 +65,30 @@ $embyurl="https://tacohouse.us/emby";
 		<script src="bower_components/respondJs/dest/respond.min.js"></script>
 		<![endif]-->
 </head>	
-
 <style>
 	
 	body {
-    	background-color: #242424;
-    	padding-top:30px !important;
-    	padding-bottom:12px !important;
-		}
-	.welcome-text {
-		font-size:24px;
-		text-align: center;
-		padding: 5px;
-		text-shadow: 1px 1px #ffffff;
-		font-family: Arial, Helvetica, sans-serif;
-		font-weight: bold;
-		color:#2da836;
+    		background-color: #242424;
+    		padding-top:30px !important;
+    		padding-bottom:12px !important;
 		}
 	input {
 			text-align:center;
 			border-radius:4px;
 			display:inline-block;
 		}
-	.entry-field {
-			text-align:center;
+	a {
+			text-decoration: none !important; 
+		
 		}
-	.fields-labels {
-			display:inline-block;
+	.enjoy {
+			font-size:24px;
+			text-align: center;
+			padding: 5px;
+			text-shadow: 1px 1px #ffffff;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			color:#2da836;
 		}
 	.leechers {
 			text-align: center;
@@ -107,50 +104,104 @@ $embyurl="https://tacohouse.us/emby";
     		margin-right: auto;
     		font-size: 20px;
 		}
-	.smiley {
-			display: inline-block;
-		}
-	a		{
-			text-decoration: none !important; 
-		
-		}	
+	#step2 {
+			font-size:22px;
+			color:#2da836;
+	}
+	#step2 a:hover {
+			color:#fff !important;
+	}
+	.embyscreenshots {
+		padding:5px;
+		border-radius:6px;
+		display: inline-block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	/*stuff for me to test the popup*/
+	/* Popup container */
+.popup {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    color:#fff;
+    font-size:40px;
+    width:85%;
+}
+#myPopup {
+	font-size:15px;
+	margin-left: auto;
+    margin-right:auto;
+    width:720px;
+    height:720px;
+    padding:10px;
+}
+/* The actual popup (appears on top) */
+.row {
+    visibility: hidden;
+    width: 160px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px 0;
+    position: absolute;
+    z-index: 1;
+    top:10%;
+    left: 10%;
+    background-image: url("https://tacohouse.us/images/xbox.png");
+
+}
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn .7s;
+    animation: fadeIn .7s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+.popout1 {
+	text-align: -webkit-center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#xbox {
+	border-radius:8px;
+	
+}
+.annoying{
+	width:100%;
+}
+/*end the popup stuff*/
 </style>
 	<body>
-		<center><img src="https://tacohouse.us/images/thlogo.png" width=250px height=30px></center>
 		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
 		<br>
-			<div class="welcome-text">
-				Welcome To Embyvites!
-			</div><br>
+		<div class="enjoy"> Finally! </div>
 		<div class="leechers">
-		    Each button below is a link. They are numbered in the order you must complete each one. This is how 
-		    you get access to your next big thing.  You wont need that bogus Kodi stick anymore. Unless you're going to use 
-		    it with the Emby app. <div class="smiley"><img src="https://tacohouse.us/images/big emoticons 4.png" height="27" width="27"></img></div>
-		</div>
-		<br>
-		<div class="hp-link col-sm-12 col-lg-12"> <a target="_blank" href="https://emby.media/connect.html">
-            <div class="content-box green-bg" style="cursor: pointer;">
-<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"> <img src="https://tacohouse.us/images/pencil.png" height="27" width="27"></img> Step 1: sign up for emby connect then come back here. </h1>
-                <div class="clearfix"></div>
-             </div>
-        </div></a>
-        <div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/Embyvites/provideinfo.php">
-            <div class="content-box yellow-bg"style="cursor: pointer;">
-<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"><img src="https://tacohouse.us/images/mail.png" height="27" width="27"></img> Step 2: send me your contact information.</h1>
-                <div class="clearfix"></div>
-             </div>
-        </div></a>
-        <div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/Embyvites/enjoy.php">
-            <div class="content-box blue-bg"style="cursor: pointer;">
-<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"><img src="https://tacohouse.us/images/emby.png" height="27" width="27"></img> Step 3: Enjoy Emby.</h1>
-                <div class="clearfix"></div>
-             </div>
-        </div></a>
-        
-		
-		</body>	
-</html>
-
+		    I am testing some popout stuff.
+		</div><br>
+	<div class=popout1><div class="popup" onclick="myFunction()">Click me!
+  <div class="row" id="myPopup">
+  	<div class="annoying">Test
+  			</div>
+  			</div>
+</div>
+	</body>
+	<script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+</script>
+</html>	

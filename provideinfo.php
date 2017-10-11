@@ -6,6 +6,23 @@ require_once('../../../functions.php');
 $admin_email="justin@turnedaround.net";
 $title="Embyvites";
 $baseURL="https://tacohouse.us";
+
+//Email Function Testing//
+if(isset($_POST['submit'])){
+    $to = "justin@turnedaround.net"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $relationship= $_POST['relationship'];
+    $embyconnect = $_POST['embyconnect'];
+    $subject = "Embyvite Contact Info/Request";
+    $message = 	$first_name . " " . $last_name . " " . "wants to join Emby and has added this information:" . "\n\n" . $relationship
+    			. "\n\n " .  "Their Emby Connect Username is -" . $embyconnect . "\n\n" . "Their email address is -" . $from;
+    $headers = "From:" . $from;
+    mail($to,$subject,$message,$headers);
+    header('Location: https://tacohouse.us/Embyvites/emailconfirm.php');
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
 ?>
 <html>
 	<head>
@@ -61,18 +78,82 @@ $baseURL="https://tacohouse.us";
 		<script src="bower_components/respondJs/dest/respond.min.js"></script>
 		<![endif]-->
 	</head>	
-		<div class="entry-field">
-				<div class="fields-labels">
-					<label>Name -->  </label>
-                </div>
-                <input name="first_name" required="required" placeholder="First">
-                        <input name="last_name" required="required" placeholder="Last">
-			</div>
-<div class="hp-link col-sm-6 col-lg-6">
-            <div class="content-box red-orange-bg" style="cursor: pointer;">
-<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center">Continue to Signup</h1>
-                <div class="clearfix"></div>
-             </div>
-        </div>
-</html>
+	<style>
+		body {
+    	background-color: #242424;
+    	padding-top:12px !important;
+    	padding-bottom:12px !important;
+		}
+		input {
+			text-align:center;
+			border-radius:4px;
+			display:inline-block;
+			width:200px;
+		}
+	.entry-field {
+			text-align:center;
+		}
+	.large-entry-field {
+			text-align:center;
+			display:block;
+	}
+	textarea#relationship {
+		height:100px;
+		width:300px;
+		border-radius:4px;
+	}
+	.fields-labels {
+			display:block;
+			text-align:center;
+			color:#2da836;
+			text-shadow: 1px 1px #ffffff;
+			font-weight: bold;
+			font-size:20px;
+		}
+	.hp-link1 {
+			width:300px !important;
+			display:block;
+			margin-left: auto;
+    		margin-right: auto;
+    		float: none;
+	}	
+	a { text-decoration: none !important; }
+	input#submit {
+		background: #3f51b5;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:300px;
+		text-align:center;
+		cursor:pointer;
+		text-transform:uppercase;
+		overflow:hidden;
+		font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+		font-size:24px;
+		color:#fff;
+		border:none;
+		font-weight:500;
+	</style>
+	<body>
+
+		<center><img src="https://tacohouse.us/images/taco_256.png" width=119px height=119px></center>
+		<br>
+			<form action="" method= "post"><div class="fields-labels"> Name </div><br>
+			<div class="entry-field">
+                <input type="text" name="first_name" required="required" placeholder="First Name">
+                        <input type="text" name="last_name" required="required" placeholder="Last Name">
+			</div><br>
+			<div class="fields-labels"> Email Address / Emby Connect Username </div><br>
+			<div class="entry-field">
+                <input type="text" name="email" required="required" placeholder="something@email.com">
+                	<input type="text" name="embyconnect" required="required" placeholder="embyconnectusername">
+            </div><br>
+            <div class="fields-labels"> How do we know each other? </div><br>
+			<div class="large-entry-field">
+                <textarea id="relationship" name= "relationship" required="required" wrap="soft" maxlength="150"
+                placeholder="Say something brief that tells me how we know each other, or how you found out about Emby."></textarea>
+            </div><br>
+		    <input type="submit" name="submit" value="Send It" id="submit">   
+		</form>    
+	</body>
+</html> 
