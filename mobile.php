@@ -104,7 +104,13 @@ $embyurl="https://tacohouse.us/emby";
     		margin-right: auto;
     		font-size: 20px;
 		}
-	
+	#step2 {
+			font-size:22px;
+			color:#2da836;
+	}
+	#step2 a:hover {
+			color:#fff !important;
+	}
 	.embyscreenshots {
 		padding:5px;
 		border-radius:6px;
@@ -112,144 +118,23 @@ $embyurl="https://tacohouse.us/emby";
 		margin-left:auto;
 		margin-right:auto;
 	}
-/*gallery images*/
-div.gallery {
-    border-radius:6px;
-}
-
-div.gallery:hover {
-
-}
-
-div.gallery img {
-    width: 100%;
-    height: 256px;
-    border-radius:6px;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-    background: #42b382;
-    text-transform:uppercase;
-    color:#ffffff;
-    font-size:24px;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 6px 6px;
-    float: left;
-    width: 45%;
-    display:block;
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/* This block will give you some animations when hovering over the "Recently Added" items (v1.38) */
-        .slick-slide img {
-            max-width: 100%;
-            -moz-transition: all 0.3s;
-            -webkit-transition: all 0.3s;
-            transition: all 0.3s;
-            opacity: .8 !important;
-        }
-        .slick-slide:hover img {
-            -moz-transform: scale(1.1);
-            -webkit-transform: scale(1.1);
-            transform: scale(.8);
-            z-index: 10000000;
-            border-radius: 10px;
-            opacity: 1 !important;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
+	
 </style>
 	<body>
 		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
 		<br>
 		<div class="enjoy"> Finally! </div>
 		<div class="leechers">
-		    I am testing some popout stuff.
+		    Now on to enjoying TacoHouse after all of that work you put in. There are apps for the
+		    iPhone, iPad, Android, Android TV, Amazon FireTV, Amazon FireTV Stick, 4th gen AppleTV, XboxONE, Roku, and many other devices.
 		</div><br>
+		<div class="embyscreenshots">
+			<img id="ios"src="https://tacohouse.us/images/ios.png">
+			<img id="amazon" src="https://tacohouse.us/images/amazonemby.png">
+			<img id="apple" src="https://tacohouse.us/images/appletv.png">
+			<img id="android" src="https://tacohouse.us/images/android1.png">
+			<img id="roku" src="https://tacohouse.us/images/rokuhome1.jpg">
+			<img id="xbox" src="https://tacohouse.us/images/xbox.png">
+		</div>
 	</body>
-<!--gallery stuff-->
-<!--/////////////-->
-<!--/////////////-->
-<!--/////////////-->
-<h2>Responsive Image Gallery</h2>
-<h4>Resize the browser window to see the effect.</h4>
-
-<div class="responsive">
-  <div class="gallery slick-slide">
-    <a target="_blank" href="https://emby.media/emby-theater-xboxone.html">
-      <img class="slick-slide"src="https://tacohouse.us/images/xbox.png" alt="XBoxONE" width="300" height="200">
-    </a>
-    <div class="desc">XboxONE</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://emby.media/emby-for-roku.html">
-      <img src="https://tacohouse.us/images/rokuhome1.jpg" alt="Roku" width="300" height="200">
-    </a>
-    <div class="desc">Roku</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://emby.media/emby-for-appletv.html">
-      <img src="https://tacohouse.us/images/appletv.png" alt="AppleTV" width="300" height="200">
-    </a>
-    <div class="desc">AppleTV</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://emby.media/emby-for-fire-tv.html">
-      <img src="https://tacohouse.us/images/amazonemby.png" alt="Amazon" width="300" height="200">
-    </a>
-    <div class="desc">FireTV</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://emby.media/emby-for-android-mobile.html">
-      <img src="https://tacohouse.us/images/android1.png" alt="Android" width="300" height="200">
-    </a>
-    <div class="desc">Android</div>
-  </div>
-</div>
-
-<div class="clearfix"></div>
-
-<div style="padding:6px;">
-  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
-  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-</div>
-	<script>
-
-</script>
 </html>	

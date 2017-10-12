@@ -104,21 +104,12 @@ $embyurl="https://tacohouse.us/emby";
     		margin-right: auto;
     		font-size: 20px;
 		}
-	#step2 {
-			font-size:22px;
-			color:#2da836;
-	}
-	#step2 a:hover {
-			color:#fff !important;
-	}
-	.embyscreenshots {
-		padding:5px;
-		border-radius:6px;
-		display: inline-block;
+	.hp-link {
+		width:300px !important;
+		float:none;
 		margin-left:auto;
 		margin-right:auto;
 	}
-	
 </style>
 	<body>
 		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
@@ -128,13 +119,13 @@ $embyurl="https://tacohouse.us/emby";
 		    Now on to enjoying TacoHouse after all of that work you put in. There are apps for the
 		    iPhone, iPad, Android, Android TV, Amazon FireTV, Amazon FireTV Stick, 4th gen AppleTV, XboxONE, Roku, and many other devices.
 		</div><br>
-		<div class="embyscreenshots">
-			<img id="ios"src="https://tacohouse.us/images/ios.png">
-			<img id="amazon" src="https://tacohouse.us/images/amazonemby.png">
-			<img id="apple" src="https://tacohouse.us/images/appletv.png">
-			<img id="android" src="https://tacohouse.us/images/android1.png">
-			<img id="roku" src="https://tacohouse.us/images/rokuhome1.jpg">
-			<img id="xbox" src="https://tacohouse.us/images/xbox.png">
+		<div class="hp-link col-sm-12 col-lg-12"> <a target="_blank" href="https://tacohouse.us/Embyvites/tvapps.php">
+            <div class="content-box green-bg" style="cursor: pointer;">
+<!-- Change "Your Text Here" with whatever you want the button to say -->
+                <h1 style="margin: 10px" class="text-uppercase text-center"> EmbyTV Apps </h1>
+                <div class="clearfix"></div>
+             </div>
+        </div></a>
 		</div>
 	</body>
 </html>	
