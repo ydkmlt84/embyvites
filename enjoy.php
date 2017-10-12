@@ -105,7 +105,7 @@ $embyurl="https://tacohouse.us/emby";
     		font-size: 20px;
 		}
 	.hp-link {
-		width:300px !important;
+		width:350px !important;
 		float:none;
 		margin-left:auto;
 		margin-right:auto;
@@ -116,8 +116,8 @@ $embyurl="https://tacohouse.us/emby";
 		<br>
 		<div class="enjoy"> Finally! </div>
 		<div class="leechers">
-		    Now on to enjoying TacoHouse after all of that work you put in. There are apps for the
-		    iPhone, iPad, Android, Android TV, Amazon FireTV, Amazon FireTV Stick, 4th gen AppleTV, XboxONE, Roku, and many other devices.
+		    Now, after all of that work you put in, let's get to enjoying some TacoHouse. There are apps for the
+		    iPhone, iPad, Android, Amazon FireTV, Amazon FireTV Stick, 4th gen AppleTV, XboxONE, Roku, and many other devices.
 		</div><br>
 		<div class="hp-link col-sm-12 col-lg-12"> <a target="_blank" href="https://tacohouse.us/Embyvites/tvapps.php">
             <div class="content-box green-bg" style="cursor: pointer;">
