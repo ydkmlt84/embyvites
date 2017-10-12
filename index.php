@@ -113,7 +113,10 @@ $embyurl="https://tacohouse.us/emby";
 	a		{
 			text-decoration: none !important; 
 		
-		}	
+		}
+	.hp-link :hover {
+		border:.5px ;
+	}	
 </style>
 	<body>
 		<center><img src="https://tacohouse.us/images/thlogo.png" width=250px height=30px></center>

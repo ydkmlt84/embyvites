@@ -105,11 +105,29 @@ $embyurl="https://tacohouse.us/emby";
     		font-size: 20px;
 		}
 	.hp-link {
-		width:350px !important;
+		width:70% !important;
 		float:none;
 		margin-left:auto;
 		margin-right:auto;
 	}
+		/* This block will give you some animations when hovering over the big buttons */
+        .slick-slide {
+            max-width: 100%;
+            -moz-transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+            display:block;
+            float:none;
+        }
+        .slick-slide:hover {
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(.975);
+            z-index: 10000000;
+            border-radius: 7px;
+            opacity: 1 !important;
+
+        }
 </style>
 	<body>
 		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
@@ -120,10 +138,18 @@ $embyurl="https://tacohouse.us/emby";
 		    iPhone, iPad, Android, Amazon FireTV, Amazon FireTV Stick, 4th gen AppleTV, XboxONE, Roku, and many other devices.
 		</div><br>
 		<div class="hp-link col-sm-12 col-lg-12"> <a target="_blank" href="https://tacohouse.us/Embyvites/tvapps.php">
-            <div class="content-box green-bg" style="cursor: pointer;">
+            <div class="slick-slide"><div class="content-box green-bg" style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"> EmbyTV Apps </h1>
-                <div class="clearfix"></div>
+                <h1 style="margin: 10px" class="text-uppercase text-center"> Find the EmbyTV Apps here </h1>
+                </div><div class="clearfix"></div>
+             </div>
+        </div></a>
+		</div>
+		<div class="hp-link col-sm-12 col-lg-12"> <a target="_blank" href="https://tacohouse.us/Embyvites/mobileapps.php">
+            <div class="slick-slide"><div class="content-box blue-bg" style="cursor: pointer;">
+<!-- Change "Your Text Here" with whatever you want the button to say -->
+                <h1 style="margin: 10px" class="text-uppercase text-center"> Find the mobile Emby Apps here </h1>
+                </div><div class="clearfix"></div>
              </div>
         </div></a>
 		</div>
