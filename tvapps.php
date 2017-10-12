@@ -180,11 +180,12 @@ div.desc {
         .slick-slide:hover img {
             -moz-transform: scale(1.1);
             -webkit-transform: scale(1.1);
-            transform: scale(.97);
+            transform: scale(.983);
             z-index: 10000000;
-            border-radius: 7px;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
             opacity: 1 !important;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            
         }
         .whole-gallery {
         	margin-left:auto;
