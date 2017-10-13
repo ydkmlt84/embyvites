@@ -20,6 +20,7 @@ if(isset($_POST['submit'])){
     			. "\n\n " .  "Their Emby Connect Username is -" . $embyconnect . "\n\n" . "Their email address is -" . $from;
     $headers = "From:" . $from;
     mail($to,$subject,$message,$headers);
+    mail($from,$subject,$message,$headers);
     header('Location: https://tacohouse.us/Embyvites/emailconfirm.php');
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
