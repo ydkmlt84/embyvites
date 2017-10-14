@@ -109,6 +109,7 @@ $embyurl="https://tacohouse.us/emby";
 			margin-left: auto;
 			margin-right: auto;
 			float: none;
+			padding-bottom: 6px;
 		}
 	.embyscreenshots {
 		padding:5px;
@@ -197,23 +198,24 @@ div.desc {
         	margin-right:auto;
         	float:none;
         }
+				#webapp-link {
+					color:#2da836;
+					font-weight: bold;
+				}
+				#webapp-link:hover {
+					color:black;
+
+					text-shadow: 1px 1px #2da836;
+				}
 </style>
 	<body>
-		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
+		<center><img src="https://tacohouse.us/images/taco_256.png" width=100px height=100px></center>
 		<br>
 		<div class="enjoy"> Emby TV Apps! </div>
 		<div class="leechers">
 		    Click on the example image for the device that you are going to use and you will be taken
-				to the Emby website, for download and use instructions.
-		</div><br>
-		<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/">
-            <div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
-				<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
-                <div class="clearfix"></div>
-             </div>
-        </div></a>
-			</div>
+				to the Emby website, for download and use instructions. If you don't have a device you can go here to the <a id="webapp-link" href="tv.emby.media">Emby Web App</a>.
+		</div>
 	</body>
 <!--gallery stuff-->
 <!--/////////////-->
@@ -255,6 +257,14 @@ div.desc {
     <div class="desc">FireTV</div>
   </div>
 </div>
-<div class="clearfix"></div>
+<div class="clearfix"></div><br>
+<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/">
+				<div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
+		<!-- Change "Your Text Here" with whatever you want the button to say -->
+						<h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
+						<div class="clearfix"></div>
+				 </div>
+		</div></a>
+	</div>
 
 </html>

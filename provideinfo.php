@@ -113,14 +113,16 @@ if(isset($_POST['submit'])){
 			font-weight: bold;
 			font-size:20px;
 		}
-	.hp-link1 {
-			width:300px !important;
+	.hp-link {
+			width:300px;
 			display:block;
 			margin-left: auto;
-    		margin-right: auto;
-    		float: none;
+    	margin-right: auto;
+    	float: none;
 	}
-	a { text-decoration: none !important; }
+	a {
+    text-decoration: none !important;
+  }
 	input#submit {
 		background: #3f51b5;
 		display:block;
@@ -136,7 +138,25 @@ if(isset($_POST['submit'])){
 		color:#fff;
 		border:none;
 		font-weight:500;
+}
+/* This block will give you some animations when hovering over the big buttons */
+    .slick-slide {
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        display:block;
+        float:none;
+    }
+    .slick-slide:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(.975);
+        z-index: 10000000;
+        border-radius: 7px;
+        opacity: 1 !important;
 
+    }
   </style>
 	<body>
 
@@ -157,8 +177,8 @@ if(isset($_POST['submit'])){
                 <textarea id="relationship" name= "relationship" required="required" wrap="soft" maxlength="150"
                 placeholder="Say something brief that tells me how we know each other, or how you found out about Emby."></textarea>
             </div><br>
-		    <input type="submit" name="submit" value="Send It" id="submit">
-		</form>
+		   <div class="slick-slide"> <input type="submit" name="submit" value="Send It" id="submit"></div>
+		</form><br>
     <div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/">
             <div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
