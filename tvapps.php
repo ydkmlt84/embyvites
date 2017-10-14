@@ -201,10 +201,10 @@ div.desc {
 				#webapp-link {
 					color:#2da836;
 					font-weight: bold;
+					text-decoration: underline !important;
 				}
 				#webapp-link:hover {
 					color:black;
-
 					text-shadow: 1px 1px #2da836;
 				}
 </style>
@@ -214,9 +214,25 @@ div.desc {
 		<div class="enjoy"> Emby TV Apps! </div>
 		<div class="leechers">
 		    Click on the example image for the device that you are going to use and you will be taken
-				to the Emby website, for download and use instructions. If you don't have a device you can go here to the <a id="webapp-link" href="tv.emby.media">Emby Web App</a>.
-		</div>
+				to the Emby website, for download and use instructions. If you don't have a device you can go here to the <a id="webapp-link" href="https://tv.emby.media">Emby Web App</a>.
+		</div><br>
 	</body>
+	<div class="hp-link col-sm-6 col-lg-6"><a href="https://tacohouse.us/embyvites/enjoy.php">
+					<div class="slick-slide"><div class="content-box blue-bg"style="cursor: pointer;">
+			<!-- Change "Your Text Here" with whatever you want the button to say -->
+							<h1 style="margin: 10px" class="text-uppercase text-center">Back to Device Options</h1>
+							<div class="clearfix"></div>
+					 </div>
+			</div></a>
+		</div>
+		<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/">
+						<div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
+				<!-- Change "Your Text Here" with whatever you want the button to say -->
+								<h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
+								<div class="clearfix"></div>
+						 </div>
+				</div></a>
+			</div>
 <!--gallery stuff-->
 <!--/////////////-->
 <!--/////////////-->
@@ -258,13 +274,6 @@ div.desc {
   </div>
 </div>
 <div class="clearfix"></div><br>
-<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/">
-				<div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
-		<!-- Change "Your Text Here" with whatever you want the button to say -->
-						<h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
-						<div class="clearfix"></div>
-				 </div>
-		</div></a>
-	</div>
+
 
 </html>

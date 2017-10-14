@@ -109,6 +109,7 @@ $embyurl="https://tacohouse.us/emby";
 			margin-left: auto;
 			margin-right: auto;
 			float: none;
+			display:block;
 		}
 	.embyscreenshots {
 		padding:5px;
@@ -128,7 +129,7 @@ div.gallery:hover {
 
 div.gallery img {
     width: 95%;
-    height: 300px;
+    height: 600	px;
     border-top-left-radius:6px;
     border-top-right-radius:6px;
 }
@@ -197,24 +198,41 @@ div.desc {
         	margin-right:auto;
         	float:none;
         }
+				#webapp-link {
+					color:#2da836;
+					font-weight: bold;
+					text-decoration: underline !important;
+				}
+				#webapp-link:hover {
+					color:black;
+					text-shadow: 1px 1px #2da836;
+				}
 </style>
 	<body>
 		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
 		<br>
-		<div class="enjoy"> Emby TV Apps! </div>
+		<div class="enjoy"> Mobile Emby Apps! </div>
 		<div class="leechers">
 		    Click on the example image for the device that you are going to use and you will be taken
-				to the Emby website, for download and use instructions.
+				to the Emby website, for download and use instructions. If you don't have a device you can go here to the <a id="webapp-link" href="https://tv.emby.media">Emby Web App</a>.
 		</div><br>
-		<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/">
-            <div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
-				<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
-                <div class="clearfix"></div>
-             </div>
-        </div></a>
-			</div>
 	</body>
+	<div class="hp-link col-sm-6 col-lg-6"><a href="https://tacohouse.us/embyvites/enjoy.php">
+					<div class="slick-slide"><div class="content-box blue-bg"style="cursor: pointer;">
+			<!-- Change "Your Text Here" with whatever you want the button to say -->
+							<h1 style="margin: 10px" class="text-uppercase text-center">Back to Device Options</h1>
+							<div class="clearfix"></div>
+					 </div>
+			</div></a>
+		</div>
+	<div class="hp-link col-sm-6 col-lg-6"><a href="https://tacohouse.us/embyvites/">
+					<div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
+			<!-- Change "Your Text Here" with whatever you want the button to say -->
+							<h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
+							<div class="clearfix"></div>
+					 </div>
+			</div></a>
+		</div>
 <!--gallery stuff-->
 <!--/////////////-->
 <!--/////////////-->
@@ -222,39 +240,22 @@ div.desc {
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="https://emby.media/emby-theater-xboxone.html">
-      <div class="slick-slide"><img src="https://tacohouse.us/images/xbox.png" alt="XBoxONE" width="300" height="200">
+    <a target="_blank" href="https://emby.media/emby-for-ios.html">
+      <div class="slick-slide"><img src="https://tacohouse.us/images/ios.png" alt="iOS">
     </div></a>
-    <div class="desc">XboxONE</div>
-  </div>
+    <div class="desc">iOS</div>
+  </div><br>
+
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="https://emby.media/emby-for-roku.html">
-      <div class="slick-slide"><img src="https://tacohouse.us/images/rokuhome1.jpg" alt="Roku" width="300" height="200">
+    <a target="_blank" href="https://emby.media/emby-for-android-mobile.html">
+      <div class="slick-slide"><img src="https://tacohouse.us/images/android1.png" alt="Android">
     </a></div>
-    <div class="desc">Roku</div>
+    <div class="desc">Android</div>
   </div>
 </div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://emby.media/emby-for-appletv.html">
-      <div class="slick-slide"><img src="https://tacohouse.us/images/appletv.png" alt="AppleTV" width="300" height="200">
-    </a></div>
-    <div class="desc">AppleTV</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://emby.media/emby-for-fire-tv.html">
-      <div class="slick-slide"><img src="https://tacohouse.us/images/amazonemby.png" alt="Amazon" width="300" height="200">
-    </a></div>
-    <div class="desc">FireTV</div>
-  </div>
-</div>
-<div class="clearfix"></div>
 
 </html>
