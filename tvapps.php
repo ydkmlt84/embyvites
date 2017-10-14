@@ -104,7 +104,12 @@ $embyurl="https://tacohouse.us/emby";
     		margin-right: auto;
     		font-size: 20px;
 		}
-
+		.hp-link {
+			width:80%;
+			margin-left: auto;
+			margin-right: auto;
+			float: none;
+		}
 	.embyscreenshots {
 		padding:5px;
 		border-radius:6px;
@@ -171,13 +176,13 @@ div.desc {
     clear: both;
 }
 /* This block will give you some animations when hovering over the "Recently Added" items (v1.38) */
-        .slick-slide img {
+        .slick-slide {
             max-width: 100%;
             -moz-transition: all 0.3s;
             -webkit-transition: all 0.3s;
             transition: all 0.3s;
         }
-        .slick-slide:hover img {
+        .slick-slide:hover {
             -moz-transform: scale(1.1);
             -webkit-transform: scale(1.1);
             transform: scale(.983);
@@ -196,10 +201,19 @@ div.desc {
 	<body>
 		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
 		<br>
-		<div class="enjoy"> Finally! </div>
+		<div class="enjoy"> Emby TV Apps! </div>
 		<div class="leechers">
-		    I am testing some stuff.
+		    Click on the example image for the device that you are going to use and you will be taken
+				to the Emby website, for download and use instructions.
 		</div><br>
+		<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/">
+            <div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
+				<!-- Change "Your Text Here" with whatever you want the button to say -->
+                <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
+                <div class="clearfix"></div>
+             </div>
+        </div></a>
+			</div>
 	</body>
 <!--gallery stuff-->
 <!--/////////////-->

@@ -137,7 +137,7 @@ $embyurl="https://tacohouse.us/emby";
 		    Now, after all of that work you put in, let's get to enjoying some TacoHouse. There are apps for the
 		    iPhone, iPad, Android, Amazon FireTV, Amazon FireTV Stick, 4th gen AppleTV, XboxONE, Roku, and many other devices.
 		</div><br>
-		<div class="hp-link col-sm-12 col-lg-12"> <a target="_blank" href="https://tacohouse.us/embyvites/tvapps.php">
+		<div class="hp-link col-sm-12 col-lg-12"> <a href="https://tacohouse.us/embyvites/tvapps.php">
             <div class="slick-slide"><div class="content-box green-bg" style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"> Find the EmbyTV Apps here </h1>
@@ -145,7 +145,7 @@ $embyurl="https://tacohouse.us/emby";
              </div>
         </div></a>
 		</div>
-		<div class="hp-link col-sm-12 col-lg-12"> <a target="_blank" href="https://tacohouse.us/embyvites/mobileapps.php">
+		<div class="hp-link col-sm-12 col-lg-12"> <a href="https://tacohouse.us/embyvites/mobileapps.php">
             <div class="slick-slide"><div class="content-box blue-bg" style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"> Find the mobile Emby Apps here </h1>
@@ -153,5 +153,13 @@ $embyurl="https://tacohouse.us/emby";
              </div>
         </div></a>
 		</div>
+		<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/">
+            <div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
+				<!-- Change "Your Text Here" with whatever you want the button to say -->
+                <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
+                <div class="clearfix"></div>
+             </div>
+        </div></a>
+			</div>
 	</body>
 </html>
