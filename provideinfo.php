@@ -1,11 +1,11 @@
 <?php
 // Include functions if not already included
-require_once('../../../functions.php');
+require_once('../functions.php');
 //Set variables
 
 $admin_email="justin@turnedaround.net";
 $title="Embyvites";
-$baseURL="https://tacohouse.us";
+$baseURL="https://tacohouse.us/";
 
 //Email Function Testing//
 if(isset($_POST['submit'])){
@@ -20,8 +20,7 @@ if(isset($_POST['submit'])){
     			. "\n\n " .  "Their Emby Connect Username is -" . $embyconnect . "\n\n" . "Their email address is -" . $from;
     $headers = "From:" . $from;
     mail($to,$subject,$message,$headers);
-    mail($from,$subject,$message,$headers);
-    header('Location: https://tacohouse.us/Embyvites/emailconfirm.php');
+    header('Location: https://tacohouse.us/embyvites/emailconfirm.php');
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
 ?>
