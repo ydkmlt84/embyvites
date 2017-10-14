@@ -1,6 +1,6 @@
 <?php
 // Include functions if not already included
-require_once('../../../functions.php');
+require_once('../functions.php');
 //Set variables
 
 $admin_email="justin@turnedaround.net";
@@ -15,13 +15,13 @@ $embyurl="https://tacohouse.us/emby";
 <head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<meta name="apple-mobile-web-app-capable" content="yes" />   
+		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="mobile-web-app-capable" content="yes" /
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="msapplication-tap-highlight" content="no" />
-		
+
 		<title><?=$title;?><?php if($title !== "Embyvites") :  echo " - Organizr"; endif; ?></title>
-		
+
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/bootstrap/dist/css/bootstrap.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/font-awesome/css/font-awesome.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/mdi/css/materialdesignicons.min.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -44,7 +44,7 @@ $embyurl="https://tacohouse.us/emby";
 
 		<link rel="stylesheet" href="<?=$baseURL;?>/css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/css/weather-icons.css?v=<?php echo INSTALLEDVERSION; ?>">
-		<link rel="stylesheet" href="../../../bower_components/animate.css/animate.min.css?v=<?php echo INSTALLEDVERSION; ?>">
+		<link rel="stylesheet" href="../bower_components/animate.css/animate.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 
 		<link rel="icon" type="image/png" href="<?=$baseURL;?>/images/favicon/android-chrome-192x192.png" sizes="192x192">
 		<link rel="apple-touch-icon" sizes="180x180" href="<?=$baseURL;?>/images/favicon/apple-touch-icon.png">
@@ -55,19 +55,19 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="shortcut icon" href="<?=$baseURL;?>/images/favicon/favicon.ico">
 		<meta name="msapplication-config" content="<?=$baseURL;?>/images/favicon/browserconfig.xml">
 		<meta name="theme-color" content="#2d89ef">
-		<link rel="stylesheet" type="text/css" href="../../../css/addtohomescreen.css">
-		<script src="../../../js/addtohomescreen.js"></script>
-		<script src="../../../js/push.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/addtohomescreen.css">
+		<script src="../js/addtohomescreen.js"></script>
+		<script src="../js/push.js"></script>
 		<!--Other-->
-		<script src="../../../js/ajax.js?v=<?php echo INSTALLEDVERSION; ?>"></script>
+		<script src="../js/ajax.js?v=<?php echo INSTALLEDVERSION; ?>"></script>
 		<!--[if lt IE 9]>
 		<script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
 		<script src="bower_components/respondJs/dest/respond.min.js"></script>
 		<![endif]-->
-</head>	
+</head>
 
 <style>
-	
+
 	body {
     	background-color: #242424;
     	padding-top:30px !important;
@@ -111,12 +111,12 @@ $embyurl="https://tacohouse.us/emby";
 			display: inline-block;
 		}
 	a		{
-			text-decoration: none !important; 
-		
+			text-decoration: none !important;
+
 		}
 	.hp-link :hover {
 		border:.5px ;
-	}	
+	}
 </style>
 	<body>
 		<center><img src="https://tacohouse.us/images/thlogo.png" width=250px height=30px></center>
@@ -126,8 +126,8 @@ $embyurl="https://tacohouse.us/emby";
 				Welcome To Embyvites!
 			</div><br>
 		<div class="leechers">
-		    Each button below is a link. They are numbered in the order you must complete each one. This is how 
-		    you get access to your next big thing.  You wont need that bogus Kodi stick anymore. Unless you're going to use 
+		    Each button below is a link. They are numbered in the order you must complete each one. This is how
+		    you get access to your next big thing.  You wont need that bogus Kodi stick anymore. Unless you're going to use
 		    it with the Emby app. <div class="smiley"><img src="https://tacohouse.us/images/big emoticons 4.png" height="27" width="27"></img></div>
 		</div>
 		<br>
@@ -138,22 +138,21 @@ $embyurl="https://tacohouse.us/emby";
                 <div class="clearfix"></div>
              </div>
         </div></a>
-        <div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/Embyvites/provideinfo.php">
+        <div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/provideinfo.php">
             <div class="content-box yellow-bg"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"><img src="https://tacohouse.us/images/mail.png" height="27" width="27"></img> Step 2: send me your contact information.</h1>
                 <div class="clearfix"></div>
              </div>
         </div></a>
-        <div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/Embyvites/enjoy.php">
+        <div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/enjoy.php">
             <div class="content-box blue-bg"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"><img src="https://tacohouse.us/images/emby.png" height="27" width="27"></img> Step 3: Enjoy Emby.</h1>
                 <div class="clearfix"></div>
              </div>
         </div></a>
-        
-		
-		</body>	
-</html>
 
+
+		</body>
+</html>

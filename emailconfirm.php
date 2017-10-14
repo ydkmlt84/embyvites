@@ -1,6 +1,6 @@
 <?php
 // Include functions if not already included
-require_once('../../../functions.php');
+require_once('../functions.php');
 //Set variables
 
 $admin_email="justin@turnedaround.net";
@@ -15,13 +15,13 @@ $embyurl="https://tacohouse.us/emby";
 <head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<meta name="apple-mobile-web-app-capable" content="yes" />   
+		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="mobile-web-app-capable" content="yes" /
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="msapplication-tap-highlight" content="no" />
-		
+
 		<title><?=$title;?><?php if($title !== "Embyvites") :  echo " - Organizr"; endif; ?></title>
-		
+
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/bootstrap/dist/css/bootstrap.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/font-awesome/css/font-awesome.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/mdi/css/materialdesignicons.min.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -44,7 +44,7 @@ $embyurl="https://tacohouse.us/emby";
 
 		<link rel="stylesheet" href="<?=$baseURL;?>/css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/css/weather-icons.css?v=<?php echo INSTALLEDVERSION; ?>">
-		<link rel="stylesheet" href="../../../bower_components/animate.css/animate.min.css?v=<?php echo INSTALLEDVERSION; ?>">
+		<link rel="stylesheet" href="../bower_components/animate.css/animate.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 
 		<link rel="icon" type="image/png" href="<?=$baseURL;?>/images/favicon/android-chrome-192x192.png" sizes="192x192">
 		<link rel="apple-touch-icon" sizes="180x180" href="<?=$baseURL;?>/images/favicon/apple-touch-icon.png">
@@ -55,18 +55,18 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="shortcut icon" href="<?=$baseURL;?>/images/favicon/favicon.ico">
 		<meta name="msapplication-config" content="<?=$baseURL;?>/images/favicon/browserconfig.xml">
 		<meta name="theme-color" content="#2d89ef">
-		<link rel="stylesheet" type="text/css" href="../../../css/addtohomescreen.css">
-		<script src="../../../js/addtohomescreen.js"></script>
-		<script src="../../../js/push.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/addtohomescreen.css">
+		<script src="../js/addtohomescreen.js"></script>
+		<script src="../js/push.js"></script>
 		<!--Other-->
-		<script src="../../../js/ajax.js?v=<?php echo INSTALLEDVERSION; ?>"></script>
+		<script src="../js/ajax.js?v=<?php echo INSTALLEDVERSION; ?>"></script>
 		<!--[if lt IE 9]>
 		<script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
 		<script src="bower_components/respondJs/dest/respond.min.js"></script>
 		<![endif]-->
-</head>	
+</head>
 <style>
-	
+
 	body {
     		background-color: #242424;
     		padding-top:30px !important;
@@ -78,8 +78,8 @@ $embyurl="https://tacohouse.us/emby";
 			display:inline-block;
 		}
 	a {
-			text-decoration: none !important; 
-		
+			text-decoration: none !important;
+
 		}
 	.enjoy {
 			font-size:24px;
@@ -119,13 +119,13 @@ $embyurl="https://tacohouse.us/emby";
 	.soclose {
 			border-radius:6px;
 	}
-	
+
 </style>
 	<body>
 		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
 		<br>
 		<div class="leechers">
-		    Your contact information has been sent to me. Give me a short while and as long as your info is correct, you should receive an email with your invite. Continue 
+		    Your contact information has been sent to me. Give me a short while and as long as your info is correct, you should receive an email with your invite. Continue
 		    back to Embyvites and do step 3.
 		</div>
 		<div class="hp-link1 col-sm-12 col-lg-12"><a href="https://tacohouse.us/Embyvites">
@@ -137,4 +137,4 @@ $embyurl="https://tacohouse.us/emby";
         </div></a>
 		<center><img class="soclose" src="https://tacohouse.us/images/soclose.jpg" width=375px height=240px></center>
 	</body>
-</html>	
+</html>

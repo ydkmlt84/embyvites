@@ -25,17 +25,20 @@ if(isset($_POST['submit'])){
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
 ?>
-<html>
-	<head>
+<!DOCTYPE html>
+
+<html lang="<?php echo $language->getLang(); ?>" class="no-js">
+
+<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<meta name="apple-mobile-web-app-capable" content="yes" />   
+		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="mobile-web-app-capable" content="yes" /
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="msapplication-tap-highlight" content="no" />
-		
+
 		<title><?=$title;?><?php if($title !== "Embyvites") :  echo " - Organizr"; endif; ?></title>
-		
+
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/bootstrap/dist/css/bootstrap.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/font-awesome/css/font-awesome.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/mdi/css/materialdesignicons.min.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -58,7 +61,7 @@ if(isset($_POST['submit'])){
 
 		<link rel="stylesheet" href="<?=$baseURL;?>/css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/css/weather-icons.css?v=<?php echo INSTALLEDVERSION; ?>">
-		<link rel="stylesheet" href="../../../bower_components/animate.css/animate.min.css?v=<?php echo INSTALLEDVERSION; ?>">
+		<link rel="stylesheet" href="../bower_components/animate.css/animate.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 
 		<link rel="icon" type="image/png" href="<?=$baseURL;?>/images/favicon/android-chrome-192x192.png" sizes="192x192">
 		<link rel="apple-touch-icon" sizes="180x180" href="<?=$baseURL;?>/images/favicon/apple-touch-icon.png">
@@ -69,16 +72,16 @@ if(isset($_POST['submit'])){
 		<link rel="shortcut icon" href="<?=$baseURL;?>/images/favicon/favicon.ico">
 		<meta name="msapplication-config" content="<?=$baseURL;?>/images/favicon/browserconfig.xml">
 		<meta name="theme-color" content="#2d89ef">
-		<link rel="stylesheet" type="text/css" href="../../../css/addtohomescreen.css">
-		<script src="../../../js/addtohomescreen.js"></script>
-		<script src="../../../js/push.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/addtohomescreen.css">
+		<script src="../js/addtohomescreen.js"></script>
+		<script src="../js/push.js"></script>
 		<!--Other-->
-		<script src="../../../js/ajax.js?v=<?php echo INSTALLEDVERSION; ?>"></script>
+		<script src="../js/ajax.js?v=<?php echo INSTALLEDVERSION; ?>"></script>
 		<!--[if lt IE 9]>
 		<script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
 		<script src="bower_components/respondJs/dest/respond.min.js"></script>
 		<![endif]-->
-	</head>	
+</head>
 	<style>
 		body {
     	background-color: #242424;
@@ -117,7 +120,7 @@ if(isset($_POST['submit'])){
 			margin-left: auto;
     		margin-right: auto;
     		float: none;
-	}	
+	}
 	a { text-decoration: none !important; }
 	input#submit {
 		background: #3f51b5;
@@ -154,7 +157,7 @@ if(isset($_POST['submit'])){
                 <textarea id="relationship" name= "relationship" required="required" wrap="soft" maxlength="150"
                 placeholder="Say something brief that tells me how we know each other, or how you found out about Emby."></textarea>
             </div><br>
-		    <input type="submit" name="submit" value="Send It" id="submit">   
-		</form>    
+		    <input type="submit" name="submit" value="Send It" id="submit">
+		</form>
 	</body>
-</html> 
+</html>
