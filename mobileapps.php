@@ -109,6 +109,7 @@ $embyurl="https://tacohouse.us/emby";
 			margin-right: auto;
 			float: none;
 			display:block;
+			padding:2px;
 		}
 	.embyscreenshots {
 		padding:5px;
@@ -201,9 +202,11 @@ div.desc {
 					background: #273238;
 					border:none;
 					cursor:pointer;
+					padding:2px;
 				}
 				.caption {
 					color:#ffffff !important;
+					text-align: center;
 				}
 </style>
 	<body>
@@ -241,7 +244,7 @@ div.desc {
                   <div class="caption">
                     <h3>ANDROID</h3>
 </div><a href="https://emby.media/emby-for-android-mobile.html">
-	<img class="slick-slide"src="https://tacohouse.us/images/android1.png" alt="thumbnail" width="85%" style="border-radius:5px;">
+	<img class="slick-slide"src="https://tacohouse.us/images/android1.png" alt="thumbnail" width="91.5%"style="border-radius:5px;">
 
 </div></a>
               </div>
@@ -250,8 +253,8 @@ div.desc {
 							                  <div class="caption">
 							                    <h3>iOS</h3>
 							</div><a href="https://emby.media/emby-for-ios.html">
-								<img class="slick-slide"src="https://tacohouse.us/images/ios.png"  alt="thumbnail" style="border-radius:5px;"><br>
-								<img class="slick-slide"src="https://tacohouse.us/images/ios2.png"  alt="thumbnail" style="border-radius:5px;">
+								<img class="slick-slide"src="https://tacohouse.us/images/ios.png"  width="70%"alt="thumbnail" style="border-radius:5px;"><br>
+								<img class="slick-slide"src="https://tacohouse.us/images/ios2.png"  width="70%"alt="thumbnail" style="border-radius:5px;">
 
 							</div></a>
 							              </div>
