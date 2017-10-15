@@ -196,15 +196,14 @@ div.desc {
         	margin-left:auto;
         	margin-right:auto;
         	float:none;
-        }
-				#webapp-link {
-					color:#2da836;
-					font-weight: bold;
-					text-decoration: underline !important;
 				}
-				#webapp-link:hover {
-					color:black;
-					text-shadow: 1px 1px #2da836;
+        .thumbnail {
+					background: #273238;
+					border:none;
+					cursor:pointer;
+				}
+				.caption {
+					color:#ffffff !important;
 				}
 </style>
 	<body>
@@ -241,18 +240,21 @@ div.desc {
                 <div class="thumbnail">
                   <div class="caption">
                     <h3>ANDROID</h3>
-</div><img src="https://tacohouse.us/images/android1.png" alt="thumbnail">
+</div><a href="https://emby.media/emby-for-android-mobile.html">
+	<img class="slick-slide"src="https://tacohouse.us/images/android1.png" alt="thumbnail" width="85%" style="border-radius:5px;">
 
-                </div>
+</div></a>
               </div>
-	<div class="col-lg-6">
-		<div class="content-box big-box box-shadow gray-bg">
-			<h4><strong>ROKU</strong></h4>
-			<!-- 16:9 aspect ratio -->
-			<div class="embed-responsive embed-responsive-16by9 slick-slide">
-				<a href="https://emby.media/emby-for-roku.html"><img src="https://tacohouse.us/images/rokuhome1.jpg" style="
-width: 100%; border-radius:5px;
-"></div></a>
+							<div class="col-lg-6 gray-bg">
+							                <div class="thumbnail">
+							                  <div class="caption">
+							                    <h3>iOS</h3>
+							</div><a href="https://emby.media/emby-for-ios.html">
+								<img class="slick-slide"src="https://tacohouse.us/images/ios.png"  alt="thumbnail" style="border-radius:5px;"><br>
+								<img class="slick-slide"src="https://tacohouse.us/images/ios2.png"  alt="thumbnail" style="border-radius:5px;">
+
+							</div></a>
+							              </div>
 
 
 </html>
