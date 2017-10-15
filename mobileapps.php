@@ -93,13 +93,12 @@ $embyurl="https://tacohouse.us/emby";
 	.leechers {
 			text-align: center;
     		color: #ffffff;
-    		background: #545454;
+    		background: #273238;
     		padding-left: 5px;
     		padding-right: 5px;
     		display: block;
-    		border: 1px solid black;
     		border-radius: 4px;
-    		width: 88%;
+    		width: 78%;
     		margin-left: auto;
     		margin-right: auto;
     		font-size: 20px;
@@ -186,7 +185,7 @@ div.desc {
         .slick-slide:hover {
             -moz-transform: scale(1.1);
             -webkit-transform: scale(1.1);
-            transform: scale(.983);
+            transform: scale(.994);
             z-index: 10000000;
             border-top-left-radius: 7px;
             border-top-right-radius: 7px;
@@ -214,7 +213,7 @@ div.desc {
 		<div class="enjoy"> Mobile Emby Apps! </div>
 		<div class="leechers">
 		    Click on the example image for the device that you are going to use and you will be taken
-				to the Emby website, for download and use instructions. If you don't have a device you can go here to the <a id="webapp-link" href="https://tv.emby.media">Emby Web App</a>.
+				to the Emby website, for download and use instructions.
 		</div><br>
 	</body>
 	<div class="hp-link col-sm-6 col-lg-6"><a href="https://tacohouse.us/embyvites/enjoy.php">
@@ -238,24 +237,22 @@ div.desc {
 <!--/////////////-->
 <!--/////////////-->
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://emby.media/emby-for-ios.html">
-      <div class="slick-slide"><img src="https://tacohouse.us/images/ios.png" alt="iOS">
-    </div></a>
-    <div class="desc">iOS</div>
-  </div><br>
+<div class="col-lg-6 gray-bg">
+                <div class="thumbnail">
+                  <div class="caption">
+                    <h3>ANDROID</h3>
+</div><img src="https://tacohouse.us/images/android1.png" alt="thumbnail">
 
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://emby.media/emby-for-android-mobile.html">
-      <div class="slick-slide"><img src="https://tacohouse.us/images/android1.png" alt="Android">
-    </a></div>
-    <div class="desc">Android</div>
-  </div>
-</div>
+                </div>
+              </div>
+	<div class="col-lg-6">
+		<div class="content-box big-box box-shadow gray-bg">
+			<h4><strong>ROKU</strong></h4>
+			<!-- 16:9 aspect ratio -->
+			<div class="embed-responsive embed-responsive-16by9 slick-slide">
+				<a href="https://emby.media/emby-for-roku.html"><img src="https://tacohouse.us/images/rokuhome1.jpg" style="
+width: 100%; border-radius:5px;
+"></div></a>
 
 
 </html>

@@ -125,8 +125,8 @@ $embyurl="https://tacohouse.us/emby";
 		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
 		<br>
 		<div class="leechers">
-		    Your contact information has been sent to me. Give me a short while and as long as your info is correct, you should receive an email with your invite. Continue
-		    back to Embyvites and do step 3.
+		    Your contact information has been sent to me. Give me a short while and as long as your info is correct, you should receive an email with your invite.
+				After you complete any steps in that email continue back to Embyvites and do step 3.
 		</div>
 		<div class="hp-link1 col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/index.php">
             <div class="content-box green-bg"style="cursor: pointer;">

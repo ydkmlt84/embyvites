@@ -72,14 +72,8 @@ $embyurl="https://tacohouse.us/emby";
     		padding-top:30px !important;
     		padding-bottom:12px !important;
 		}
-	input {
-			text-align:center;
-			border-radius:4px;
-			display:inline-block;
-		}
-	a {
+	a 	{
 			text-decoration: none !important;
-
 		}
 	.enjoy {
 			font-size:24px;
@@ -133,35 +127,80 @@ $embyurl="https://tacohouse.us/emby";
 					font-size: 20px;
 					display: inline-block;
 				}
+				/*gallery images*/
+				div.gallery {
+				    border-radius:6px;
+				}
+
+				div.gallery:hover {
+					cursor:pointer;
+
+				}
+
+				div.gallery img {
+				    width: 95%;
+				    height: 300px;
+				    border-top-left-radius:6px;
+				    border-top-right-radius:6px;
+				}
+
+				div.desc {
+				    padding: 15px;
+				    text-align: center;
+				    background: #42b382;
+				    text-transform:uppercase;
+				    color:#ffffff;
+				    font-size:24px;
+				    width:95%;
+				    cursor:default;
+				}
+
+				* {
+				    box-sizing: border-box;
+				}
+
+				.responsive {
+				    padding: 6px 6px;
+				    float:left;
+				    margin-left:55px;
+				    width: 45%;
+				    display:block;
+
+				}
+
+				@media only screen and (max-width: 700px){
+				    .responsive {
+				        width: 49.99999%;
+				        margin: 6px 0;
+				    }
+				}
+
+				@media only screen and (max-width: 500px){
+				    .responsive {
+				        width: 100%;
+				    }
+				}
+
+				.clearfix:after {
+				    content: "";
+				    display: table;
+				    clear: both;
+				}
+
+
 </style>
 	<body>
 		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
 		<br>
-		<div class="enjoy"> Finally! </div>
+		<div class="enjoy"> Emby Web App</div>
 		<div class="leechers">
-		    Now, after all of that work you put in, let's get to enjoying some TacoHouse. There are apps for the
-		    iPhone, iPad, Android, Amazon FireTV, Amazon FireTV Stick, 4th gen AppleTV, XboxONE, Roku, and many other devices. Choose your option below. &#8595
+		    Using the Web App is not the ideal solution, but a solution none the less. There are a few steps left to go this route.
+				I will try to outline the steps the best I can.
 		</div><br>
-		<div class="hp-link col-sm-12 col-lg-12"> <a href="https://tacohouse.us/embyvites/tvapps.php">
-            <div class="slick-slide"><div class="content-box green-bg" style="cursor: pointer;">
-<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"> Find the EmbyTV Apps here &nbsp<div class="aka">(for a device connected to your TV)</div> </h1>
-                </div><div class="clearfix"></div>
-             </div>
-        </div></a>
-		</div>
-		<div class="hp-link col-sm-12 col-lg-12"> <a href="https://tacohouse.us/embyvites/mobileapps.php">
-            <div class="slick-slide"><div class="content-box blue-bg" style="cursor: pointer;">
-<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"> Find the mobile Emby Apps here &nbsp<div class="aka">(for your phone/tablet)</div></h1>
-                </div><div class="clearfix"></div>
-             </div>
-        </div></a>
-		</div>
-		<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/webapp.php">
-            <div class="slick-slide"><div class="content-box yellow-bg"style="cursor: pointer;">
+		<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/enjoy.php">
+            <div class="slick-slide"><div class="content-box light-blue-bg"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center">Find the Emby Web App here &nbsp<div class="aka">(no special device needed)</div></h1>
+                <h1 style="margin: 10px" class="text-uppercase text-center">Back to Device Options</h1>
                 <div class="clearfix"></div>
              </div>
         </div></a>
@@ -174,5 +213,58 @@ $embyurl="https://tacohouse.us/emby";
              </div>
         </div></a>
 			</div>
-	</body>
+			<!--gallery stuff-->
+			<!--/////////////-->
+			<!--/////////////-->
+			<!--/////////////-->
+
+			<div class="responsive">
+			  <div class="gallery">
+			    <a target="_blank" href="https://emby.media/emby-theater-xboxone.html">
+			      <div class="slick-slide"><img src="https://tacohouse.us/images/xbox.png" alt="XBoxONE" width="300" height="200">
+			    </div></a>
+			    <div class="desc">XboxONE</div>
+			  </div>
+			</div>
+
+			<div class="responsive">
+			  <div class="gallery">
+			    <a target="_blank" href="https://emby.media/emby-for-roku.html">
+			      <div class="slick-slide"><img src="https://tacohouse.us/images/rokuhome1.jpg" alt="Roku" width="300" height="200">
+			    </a></div>
+			    <div class="desc">Roku</div>
+			  </div>
+			</div>
+
+			<div class="responsive">
+			  <div class="gallery">
+			    <a target="_blank" href="https://emby.media/emby-for-appletv.html">
+			      <div class="slick-slide"><img src="https://tacohouse.us/images/appletv.png" alt="AppleTV" width="300" height="200">
+			    </a></div>
+			    <div class="desc">AppleTV</div>
+			  </div>
+			</div>
+
+			<div class="responsive">
+			  <div class="gallery">
+			     <div class="slick-slide"><image id="myBtn" src="https://tacohouse.us/images/amazonemby.png" alt="Amazon" width="300" height="200">
+			    </div>
+			    <div class="desc">FireTV</div>
+			  </div>
+			</div>
+		
+<div class="modal fade nameOFmodal in" tabindex="-1" role="dialog" style="display: block;">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body"><img src=""></div>
+        </div>
+    </div>
+</div>
+
+<button type="button" class="btn btn-primary waves waves-effect waves-float" data-toggle="modal" data-target=".nameOFmodal">Large modal</button>
+
 </html>

@@ -131,7 +131,7 @@ $embyurl="https://tacohouse.us/emby";
 		    it with the Emby app. <div class="smiley"><img src="https://tacohouse.us/images/big emoticons 4.png" height="27" width="27"></img></div>
 		</div>
 		<br>
-		<div class="hp-link col-sm-12 col-lg-12"> <a target="_blank" href="https://emby.media/connect.html">
+		<div class="hp-link col-sm-12 col-lg-12"> <a target="_blank" href="https://goo.gl/8iW7Ye">
             <div class="content-box green-bg" style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"> <img src="https://tacohouse.us/images/pencil.png" height="27" width="27"></img> Step 1: sign up for emby connect then come back here. </h1>
