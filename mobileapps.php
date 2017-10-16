@@ -218,21 +218,21 @@ div.desc {
 				to the Emby website, for download and use instructions.
 		</div><br>
 	</body>
-	<div class="hp-link col-sm-6 col-lg-6"><a href="https://tacohouse.us/embyvites/enjoy.php">
-					<div class="slick-slide"><div class="content-box blue-bg"style="cursor: pointer;">
+	<div class="hp-link col-sm-6 col-lg-6">
+					<div class="slick-slide"><div class="content-box blue-bg" onclick="location.href='https://tacohouse.us/embyvites/enjoy.php'"style="cursor: pointer;">
 			<!-- Change "Your Text Here" with whatever you want the button to say -->
 							<h1 style="margin: 10px" class="text-uppercase text-center">Back to Device Options</h1>
 							<div class="clearfix"></div>
 					 </div>
-			</div></a>
+			</div>
 		</div>
-	<div class="hp-link col-sm-6 col-lg-6"><a href="https://tacohouse.us/embyvites/">
-					<div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
+	<div class="hp-link col-sm-6 col-lg-6">
+					<div class="slick-slide"><div class="content-box red-orange-bg" onclick="location.href='https://tacohouse.us/embyvites/'"style="cursor: pointer;">
 			<!-- Change "Your Text Here" with whatever you want the button to say -->
 							<h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
 							<div class="clearfix"></div>
 					 </div>
-			</div></a>
+			</div>
 		</div>
 <!--gallery stuff-->
 <!--/////////////-->
@@ -249,12 +249,13 @@ div.desc {
 </div></a>
               </div>
 							<div class="col-lg-6 gray-bg">
-							                <div class="thumbnail">
-							                  <div class="caption">
-							                    <h3>iOS</h3>
-							</div><a href="https://emby.media/emby-for-ios.html">
-								<img class="slick-slide"src="https://tacohouse.us/images/ios.png"  width="70%"alt="thumbnail" style="border-radius:5px;"><br>
-								<img class="slick-slide"src="https://tacohouse.us/images/ios2.png"  width="70%"alt="thumbnail" style="border-radius:5px;">
+								<div class="caption">
+									<h3>iOS</h3>
+</div><br>
+															<div class="thumbnail slick-slide">
+							                  <a href="https://emby.media/emby-for-ios.html">
+								<img src="https://tacohouse.us/images/ios.png"  width="70%"alt="thumbnail" style="border-radius:5px;"><br>
+								<img src="https://tacohouse.us/images/ios2.png"  width="70%"alt="thumbnail" style="border-radius:5px;">
 
 							</div></a>
 							              </div>

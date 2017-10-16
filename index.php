@@ -159,20 +159,20 @@ $embyurl="https://tacohouse.us/emby";
                 <div class="clearfix"></div>
              </div>
         </div></a>
-        <div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/provideinfo.php">
-            <div class="content-box yellow-bg slick-slide"style="cursor: pointer;">
+        <div class="hp-link col-sm-12 col-lg-12">
+            <div class="content-box yellow-bg slick-slide"onclick="location.href='https://tacohouse.us/embyvites/provideinfo.php'"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"><img src="https://tacohouse.us/images/mail.png" height="27" width="27"></img> Step 2: send me your contact information.</h1>
+                <h1 style="margin: 10px" class="text-uppercase text-center"><img src="https://tacohouse.us/images/mail.png"height="27" width="27"></img> Step 2: send me your contact information.</h1>
                 <div class="clearfix"></div>
              </div>
-        </div></a>
-        <div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/enjoy.php">
-            <div class="content-box blue-bg slick-slide"style="cursor: pointer;">
+        </div>
+        <div class="hp-link col-sm-12 col-lg-12">
+            <div class="content-box blue-bg slick-slide"onclick="location.href='https://tacohouse.us/embyvites/enjoy.php'"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"><img src="https://tacohouse.us/images/emby.png" height="27" width="27"></img> Step 3: Enjoy Emby.</h1>
                 <div class="clearfix"></div>
              </div>
-        </div></a>
+        </div>
 
 
 		</body>

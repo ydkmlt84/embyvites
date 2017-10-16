@@ -128,13 +128,13 @@ $embyurl="https://tacohouse.us/emby";
 		    Your contact information has been sent to me. Give me a short while and as long as your info is correct, you should receive an email with your invite.
 				After you complete any steps in that email continue back to Embyvites and do step 3.
 		</div>
-		<div class="hp-link1 col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/index.php">
-            <div class="content-box green-bg"style="cursor: pointer;">
+		<div class="hp-link1 col-sm-12 col-lg-12">
+            <div class="content-box green-bg" onclick="location.href='https://tacohouse.us/embyvites/'"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
                 <div class="clearfix"></div>
              </div>
-        </div></a>
+        </div>
 		<center><img class="soclose" src="https://tacohouse.us/images/soclose.jpg" width=375px height=240px></center>
 	</body>
 </html>

@@ -197,21 +197,21 @@ $embyurl="https://tacohouse.us/emby";
 		    Using the Web App is not the ideal solution, but a solution none the less. There are a few steps left to go this route.
 				I will try to outline the steps the best I can.
 		</div><br>
-		<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/enjoy.php">
-            <div class="slick-slide"><div class="content-box light-blue-bg"style="cursor: pointer;">
+		<div class="hp-link col-sm-12 col-lg-12">
+            <div class="slick-slide"><div class="content-box light-blue-bg" onclick="location.href='https://tacohouse.us/embyvites/enjoy.php'"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center">Back to Device Options</h1>
                 <div class="clearfix"></div>
              </div>
-        </div></a>
+        </div>
 			</div>
-		<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/">
-            <div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
+		<div class="hp-link col-sm-12 col-lg-12">
+            <div class="slick-slide"><div class="content-box red-orange-bg" onclick="location.href='https://tacohouse.us/embyvites/'"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
                 <div class="clearfix"></div>
              </div>
-        </div></a>
+        </div>
 			</div>
 			<!--gallery stuff-->
 			<!--/////////////-->
