@@ -117,6 +117,27 @@ $embyurl="https://tacohouse.us/emby";
 	.hp-link :hover {
 		border:.5px ;
 	}
+	.content-box{
+		border-radius:5px;
+	}
+	/* This block will give you some animations when hovering over the big buttons */
+			.slick-slide {
+					max-width: 100%;
+					-moz-transition: all 0.3s;
+					-webkit-transition: all 0.3s;
+					transition: all 0.3s;
+					display:block;
+					float:none;
+			}
+			.slick-slide:hover {
+					-moz-transform: scale(1.1);
+					-webkit-transform: scale(1.1);
+					transform: scale(.989);
+					z-index: 10000000;
+					border-radius: 5px;
+					opacity: 1 !important;
+
+			}
 </style>
 	<body>
 		<center><img src="https://tacohouse.us/images/thlogo.png" width=250px height=30px></center>
@@ -132,21 +153,21 @@ $embyurl="https://tacohouse.us/emby";
 		</div>
 		<br>
 		<div class="hp-link col-sm-12 col-lg-12"> <a target="_blank" href="https://goo.gl/8iW7Ye">
-            <div class="content-box green-bg" style="cursor: pointer;">
+            <div class="content-box green-bg slick-slide" style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"> <img src="https://tacohouse.us/images/pencil.png" height="27" width="27"></img> Step 1: sign up for emby connect then come back here. </h1>
                 <div class="clearfix"></div>
              </div>
         </div></a>
         <div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/provideinfo.php">
-            <div class="content-box yellow-bg"style="cursor: pointer;">
+            <div class="content-box yellow-bg slick-slide"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"><img src="https://tacohouse.us/images/mail.png" height="27" width="27"></img> Step 2: send me your contact information.</h1>
                 <div class="clearfix"></div>
              </div>
         </div></a>
         <div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/enjoy.php">
-            <div class="content-box blue-bg"style="cursor: pointer;">
+            <div class="content-box blue-bg slick-slide"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"><img src="https://tacohouse.us/images/emby.png" height="27" width="27"></img> Step 3: Enjoy Emby.</h1>
                 <div class="clearfix"></div>

@@ -252,8 +252,8 @@ $embyurl="https://tacohouse.us/emby";
 			    <div class="desc">FireTV</div>
 			  </div>
 			</div>
-		
-<div class="modal fade nameOFmodal in" tabindex="-1" role="dialog" style="display: block;">
+
+<div class="modal fade gallery in" tabindex="-1" role="dialog" style="display: block;">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -265,6 +265,6 @@ $embyurl="https://tacohouse.us/emby";
     </div>
 </div>
 
-<button type="button" class="btn btn-primary waves waves-effect waves-float" data-toggle="modal" data-target=".nameOFmodal">Large modal</button>
+<button type="button" class="btn btn-primary waves waves-effect waves-float" data-toggle="modal" data-target=".gallery">Large modal</button>
 
 </html>

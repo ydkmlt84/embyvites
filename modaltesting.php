@@ -72,14 +72,8 @@ $embyurl="https://tacohouse.us/emby";
     		padding-top:30px !important;
     		padding-bottom:12px !important;
 		}
-	input {
-			text-align:center;
-			border-radius:4px;
-			display:inline-block;
-		}
-	a {
+	a 	{
 			text-decoration: none !important;
-
 		}
 	.enjoy {
 			font-size:24px;
@@ -93,134 +87,177 @@ $embyurl="https://tacohouse.us/emby";
 	.leechers {
 			text-align: center;
     		color: #ffffff;
-    		background: #273238;
+    		background: #545454;
     		padding-left: 5px;
     		padding-right: 5px;
     		display: block;
+    		border: 1px solid black;
     		border-radius: 4px;
     		width: 88%;
     		margin-left: auto;
     		margin-right: auto;
     		font-size: 20px;
 		}
-		.hp-link {
-			width:80%;
-			margin-left: auto;
-			margin-right: auto;
-			float: none;
-			padding-bottom: 6px;
-		}
-	.embyscreenshots {
-		padding:5px;
-		border-radius:6px;
-		display: inline-block;
+	.hp-link {
+		width:70% !important;
+		float:none;
 		margin-left:auto;
 		margin-right:auto;
 	}
-/*gallery images*/
-div.gallery {
-    border-radius:6px;
-}
-
-div.gallery:hover {
-
-}
-
-div.gallery img {
-    width: 95%;
-    height: 300px;
-    border-top-left-radius:6px;
-    border-top-right-radius:6px;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-    background: #42b382;
-    text-transform:uppercase;
-    color:#ffffff;
-    font-size:24px;
-    width:95%;
-    cursor:default;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 6px 6px;
-    float:left;
-    margin-left:55px;
-    width: 45%;
-    display:block;
-
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/* This block will give you some animations when hovering over the "Recently Added" items (v1.38) */
+		/* This block will give you some animations when hovering over the big buttons */
         .slick-slide {
             max-width: 100%;
             -moz-transition: all 0.3s;
             -webkit-transition: all 0.3s;
             transition: all 0.3s;
+            display:block;
+            float:none;
         }
         .slick-slide:hover {
             -moz-transform: scale(1.1);
             -webkit-transform: scale(1.1);
-            transform: scale(.987);
+            transform: scale(.989);
             z-index: 10000000;
-            border-radius: 5px;
+            border-radius: 7px;
             opacity: 1 !important;
 
         }
-        .whole-gallery {
-        	margin-left:auto;
-        	margin-right:auto;
-        	float:none;
-        }
-	</style>
+				.aka {
+					font-style: italic;
+					font-size: 20px;
+					display: inline-block;
+				}
+ /* modal lightbox stuff */
+ .row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 10px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: 1% auto;
+    display: block;
+		float: none;
+    width: 100%;
+    max-width: 900px;
+		background-color: transparent !important;
+		border: none;
+		border-radius: 6px !important;
+		left: -30;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 900px){
+    .modal-content {
+        width: 100%;
+    }
+}
+</style>
 	<body>
-		<center><img src="https://tacohouse.us/images/taco_256.png" width=100px height=100px></center>
+		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
 		<br>
-		<div class="enjoy"> Emby TV Apps! </div>
+		<div class="enjoy"> Emby Web App</div>
 		<div class="leechers">
-		    Click on the example image for the device that you are going to use and you will be taken
-				to the Emby website, for download and use instructions.
+		    Using the Web App is not the ideal solution, but a solution none the less. There are a few steps left to go this route.
+				I will try to outline the steps the best I can.
 		</div><br>
-	</body>
-	<div class="hp-link col-sm-6 col-lg-6"><a href="https://tacohouse.us/embyvites/enjoy.php">
-					<div class="slick-slide"><div class="content-box blue-bg"style="cursor: pointer;">
-			<!-- Change "Your Text Here" with whatever you want the button to say -->
-							<h1 style="margin: 10px" class="text-uppercase text-center">Back to Device Options</h1>
-							<div class="clearfix"></div>
-					 </div>
-			</div></a>
-		</div>
-		<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/">
-						<div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
+		<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/enjoy.php">
+            <div class="slick-slide"><div class="content-box light-blue-bg"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
-								<h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
-								<div class="clearfix"></div>
-						 </div>
-				</div></a>
+                <h1 style="margin: 10px" class="text-uppercase text-center">Back to Device Options</h1>
+                <div class="clearfix"></div>
+             </div>
+        </div></a>
+			</div>
+		<div class="hp-link col-sm-12 col-lg-12"><a href="https://tacohouse.us/embyvites/">
+            <div class="slick-slide"><div class="content-box red-orange-bg"style="cursor: pointer;">
+				<!-- Change "Your Text Here" with whatever you want the button to say -->
+                <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
+                <div class="clearfix"></div>
+             </div>
+        </div></a>
 			</div>
 <!--gallery stuff-->
 <!--/////////////-->
@@ -232,8 +269,8 @@ div.desc {
           <div class="content-box big-box box-shadow gray-bg">
             <h4><strong>FIRE TV</strong></h4>
             <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9 slick-slide">
-							<a href="https://emby.media/emby-for-fire-tv.html"><img src="https://tacohouse.us/images/amazonemby.png" style="width: 100%; border-radius:8px;"></div></a>
+            <div class="embed-responsive embed-responsive-16by9 slick-slide hover-shadow">
+							<img id="myImg"src="https://tacohouse.us/images/amazonemby.png" onclick="openModal();currentSlide(1);" style="width: 100%; border-radius:8px;"></div>
           </div>
         </div>
         <div class="col-lg-6">
@@ -268,8 +305,44 @@ div.desc {
         </div>
       </div>
 
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()"></span>
+  <div class="modal-content">
 
-<div class="clearfix"></div><br>
+    <div class="mySlides">
+      <img id="img01"src="../images/xbox.png" style="width: 115%; border-radius:20px;">
+    </div>
+</div>
 
+    <div class="mySlides">
+      <img id="img02"src="../images/amazonemby.png" style="width: 115%; border-radius:20px;">
+    </div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 
 </html>
