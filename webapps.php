@@ -139,6 +139,8 @@ $embyurl="https://tacohouse.us/emby";
 						<img src="https://tacohouse.us/images/webapp1.png" onclick="location.href='https://tacohouse.us/embyvites/webapp1.php'"style="
 	width: 100%; border-radius:5px;">
 </div>
+</div>
+</div>
 <div class="col-lg-6">
 	<div class="content-box big-box box-shadow gray-bg">
 		<h4><strong>Second</strong></h4>
@@ -147,5 +149,6 @@ $embyurl="https://tacohouse.us/emby";
 			<img src="https://tacohouse.us/images/webapp2.png" onclick="location.href='https://tacohouse.us/embyvites/webapp2.php'"style="
 width: 100%; border-radius:5px;">
 </div>
-
+</div>
+</div>
 </html>
