@@ -96,8 +96,8 @@ $embyurl="https://tacohouse.us/emby";
 	<body>
 		<center><img src="/embyvites/images/taco_256.png" width=100px height=100px></center>
 		<br>
-		<div class="enjoy"> Emby TV Apps! </div>
-		<div class="leechers">
+		<div class="heading-text"> Emby TV Apps! </div>
+		<div class="explain">
 		    Click on the example image for the device that you are going to use and you will be taken
 				to the Emby website, for download and use instructions.
 		</div><br>

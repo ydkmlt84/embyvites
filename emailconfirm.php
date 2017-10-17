@@ -84,7 +84,7 @@ $embyurl="https://tacohouse.us/emby";
 	<body>
 		<center><img src="/embyvites/images/taco_256.png" width=150px height=150px></center>
 		<br>
-		<div class="leechers">
+		<div class="explain">
 		    Your contact information has been sent to me. Give me a short while and as long as your info is correct, you should receive an email with your invite.
 				After you complete any steps in that email continue back to Embyvites and do step 3.
 		</div>

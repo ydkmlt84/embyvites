@@ -108,8 +108,8 @@ $embyurl="https://tacohouse.us/emby";
 	<body>
 		<center><img src="/embyvites/images/taco_256.png" width=150px height=150px></center>
 		<br>
-		<div class="enjoy"> Mobile Emby Apps! </div>
-		<div class="leechers">
+		<div class="heading-text"> Mobile Emby Apps! </div>
+		<div class="explain">
 		    Click on the example image for the device that you are going to use and you will be taken
 				to the Emby website, for download and use instructions.
 		</div><br>

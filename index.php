@@ -67,63 +67,44 @@ $embyurl="https://tacohouse.us/emby";
 		<script src="bower_components/respondJs/dest/respond.min.js"></script>
 		<![endif]-->
 </head>
-
 <style>
-
-	/* This block will give you some animations when hovering over the big buttons */
-			.slick-slide {
-					max-width: 100%;
-					-moz-transition: all 0.3s;
-					-webkit-transition: all 0.3s;
-					transition: all 0.3s;
-					display:block;
-					float:none;
-			}
-			.slick-slide:hover {
-					-moz-transform: scale(1.1);
-					-webkit-transform: scale(1.1);
-					transform: scale(.989);
-					z-index: 10000000;
-					border-radius: 5px;
-					opacity: 1 !important;
-
-			}
+#thlogo {
+	width: 250px;
+	height: 30px;
+}
+#taco {
+	height: 150px;
+	width: 150px;
+}
 </style>
 	<body>
-		<center><img src="/embyvites/images/thlogo.png" width=250px height=30px></center>
-		<center><img src="/embyvites/images/taco_256.png" width=150px height=150px></center>
-		<br>
-			<div class="welcome-text">
-				Welcome To Embyvites!
-			</div><br>
-		<div class="leechers">
+			<div class="logo">
+				<center><img id="thlogo"src="/embyvites/images/thlogo.png"></center>
+				<center><img id="taco"src="/embyvites/images/taco_256.png"></center>
+			</div>
+			<div class="notice">
+						<div class="heading-text">
+							Welcome To Embyvites!
+						</div>
+					<div class="explain">
 		    Each button below is a link. They are numbered in the order you must complete each one. This is how
 		    you get access to your next big thing.  You won't need that bogus Kodi stick anymore. Unless you're going to use
-		    it with the Emby app. <div class="smiley"><img src="/embyvites/images/big emoticons 4.png" height="27" width="27"></img></div>
-		</div>
-		<br>
-		<div class="hp-link col-sm-12 col-lg-12"> <a target="_blank" href="https://goo.gl/8iW7Ye">
-            <div class="content-box green-bg slick-slide" style="cursor: pointer;">
-<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"> <img src="/embyvites/images/pencil.png" height="27" width="27"></img> Step 1: sign up for emby connect then come back here. </h1>
-                <div class="clearfix"></div>
+		    it with the Emby app. <div class="smiley"><img src="/embyvites/images/big emoticons 4.png"></div>
+					</div>
+			</div>
+		<div id="buttons clearfix">
+					<div class="hp-link col-sm-12 col-lg-12 text-center text-uppercase"> <a target="_blank" href="https://goo.gl/8iW7Ye">
+            	<div class="content-box green-bg slick-slide">
+                	<h1 style="margin: 10px"><img src="/embyvites/images/pencil.png">
+										 	Step 1: sign up for emby connect then come back here. </h1>
+             	</div></a>
+            <div class="content-box orange-bg slick-slide" onclick="location.href='/embyvites/provideinfo.php'">
+                <h1 style="margin: 10px"><img src="/embyvites/images/mail.png"> Step 2: send me your contact information.</h1>
              </div>
-        </div></a>
-        <div class="hp-link col-sm-12 col-lg-12">
-            <div class="content-box orange-bg slick-slide"onclick="location.href='/embyvites/provideinfo.php'"style="cursor: pointer;">
-<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"><img src="/embyvites/images/mail.png"height="27" width="27"></img> Step 2: send me your contact information.</h1>
-                <div class="clearfix"></div>
-             </div>
-        </div>
-        <div class="hp-link col-sm-12 col-lg-12">
-            <div class="content-box blue-bg slick-slide"onclick="location.href='/embyvites/enjoy.php'"style="cursor: pointer;">
-<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"><img src="/embyvites/images/emby.png" height="27" width="27"></img> Step 3: Enjoy Emby.</h1>
-                <div class="clearfix"></div>
-             </div>
-        </div>
-
-
+            <div class="content-box blue-bg slick-slide" onclick="location.href='/embyvites/enjoy.php'">
+              <h1 style="margin: 10px"><img src="/embyvites/images/emby.png"> Step 3: Enjoy Emby.</h1>
+            </div>
+					 </div>
+			</div>
 		</body>
 </html>

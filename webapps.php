@@ -103,8 +103,8 @@ $embyurl="https://tacohouse.us/emby";
 	<body>
 		<center><img src="/embyvites/images/taco_256.png" width=100px height=100px></center>
 		<br>
-		<div class="enjoy"> Emby Web App</div>
-		<div class="leechers">
+		<div class="heading-text"> Emby Web App</div>
+		<div class="explain">
 		    Using the Web App is not the ideal solution, but a solution none the less. There are a few steps left to go this route.
 				I will try to outline the steps the best I can.
 		</div><br>
@@ -138,7 +138,7 @@ $embyurl="https://tacohouse.us/emby";
 					<!-- 16:9 aspect ratio -->
 					<div class="embed-responsive embed-responsive-16by9 slick-slide">
 						<img src="/embyvites/images/webapp1-arrow.png" onclick="location.href='/embyvites/screenshots/webapp1.php'"style="
-	width: 100%; border-radius:5px;">
+	width: 100%; border-radius:5px; cursor: pointer">
 </div>
 </div>
 </div>
@@ -148,7 +148,7 @@ $embyurl="https://tacohouse.us/emby";
 		<!-- 16:9 aspect ratio -->
 		<div class="embed-responsive embed-responsive-16by9 slick-slide">
 			<img src="/embyvites/images/webapp2-arrow.png" onclick="location.href='/embyvites/screenshots/webapp2.php'"style="
-width: 100%; border-radius:5px;">
+width: 100%; border-radius:5px; cursor: pointer">
 </div>
 </div>
 </div>
@@ -158,7 +158,7 @@ width: 100%; border-radius:5px;">
 		<!-- 16:9 aspect ratio -->
 		<div class="embed-responsive embed-responsive-16by9 slick-slide">
 			<img src="/embyvites/images/webapp3-arrow.png" onclick="location.href='/embyvites/screenshots/webapp3.php'"style="
-width: 100%; border-radius:5px;">
+width: 100%; border-radius:5px; cursor:pointer">
 </div>
 </div>
 </div>

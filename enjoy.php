@@ -102,8 +102,8 @@ $embyurl="https://tacohouse.us/emby";
 	<body>
 		<center><img src="/embyvites/images/taco_256.png" width=150px height=150px></center>
 		<br>
-		<div class="enjoy"> Finally! </div>
-		<div class="leechers">
+		<div class="heading-text"> Finally! </div>
+		<div class="explain">
 		    Now, after all of that work you put in, let's get to enjoying some TacoHouse. There are apps for the
 		    iPhone, iPad, Android, Amazon FireTV, Amazon FireTV Stick, 4th gen AppleTV, XboxONE, Roku, and many other devices. Choose your option below. &#8595
 		</div><br>
