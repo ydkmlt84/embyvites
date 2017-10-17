@@ -109,7 +109,7 @@ $embyurl="https://tacohouse.us/emby";
 				I will try to outline the steps the best I can.
 		</div><br>
 		<div class="hp-link col-sm-12 col-lg-12">
-            <div class="slick-slide"><div class="content-box light-blue-bg" onclick="location.href='https://tacohouse.us/embyvites/enjoy.php'"style="cursor: pointer;">
+            <div class="slick-slide"><div class="content-box light-blue-bg" onclick="location.href='/embyvites/enjoy.php'"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center">Back to Device Options</h1>
                 <div class="clearfix"></div>
@@ -125,7 +125,7 @@ $embyurl="https://tacohouse.us/emby";
 	        </div>
 				</div>
 		<div class="hp-link col-sm-12 col-lg-12">
-            <div class="slick-slide"><div class="content-box red-orange-bg" onclick="location.href='https://tacohouse.us/embyvites/'"style="cursor: pointer;">
+            <div class="slick-slide"><div class="content-box red-orange-bg" onclick="location.href='/embyvites/'"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
                 <div class="clearfix"></div>
@@ -137,7 +137,7 @@ $embyurl="https://tacohouse.us/emby";
 					<h4><strong>First</strong></h4>
 					<!-- 16:9 aspect ratio -->
 					<div class="embed-responsive embed-responsive-16by9 slick-slide">
-						<img src="/embyvites/images/webapp1.png" onclick="location.href='https://tacohouse.us/embyvites/screenshots/webapp1.php'"style="
+						<img src="/embyvites/images/webapp1-arrow.png" onclick="location.href='/embyvites/screenshots/webapp1.php'"style="
 	width: 100%; border-radius:5px;">
 </div>
 </div>
@@ -147,7 +147,7 @@ $embyurl="https://tacohouse.us/emby";
 		<h4><strong>Second</strong></h4>
 		<!-- 16:9 aspect ratio -->
 		<div class="embed-responsive embed-responsive-16by9 slick-slide">
-			<img src="/embyvites/images/webapp2.png" onclick="location.href='https://tacohouse.us/embyvites/screenshots/webapp2.php'"style="
+			<img src="/embyvites/images/webapp2-arrow.png" onclick="location.href='/embyvites/screenshots/webapp2.php'"style="
 width: 100%; border-radius:5px;">
 </div>
 </div>
@@ -157,7 +157,7 @@ width: 100%; border-radius:5px;">
 		<h4><strong>Third</strong></h4>
 		<!-- 16:9 aspect ratio -->
 		<div class="embed-responsive embed-responsive-16by9 slick-slide">
-			<img src="/embyvites/images/webapp3.png" onclick="location.href='https://tacohouse.us/embyvites/screenshots/webapp3.php'"style="
+			<img src="/embyvites/images/webapp3-arrow.png" onclick="location.href='/embyvites/screenshots/webapp3.php'"style="
 width: 100%; border-radius:5px;">
 </div>
 </div>

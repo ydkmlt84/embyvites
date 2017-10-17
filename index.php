@@ -110,14 +110,14 @@ $embyurl="https://tacohouse.us/emby";
              </div>
         </div></a>
         <div class="hp-link col-sm-12 col-lg-12">
-            <div class="content-box orange-bg slick-slide"onclick="location.href='https://tacohouse.us/embyvites/provideinfo.php'"style="cursor: pointer;">
+            <div class="content-box orange-bg slick-slide"onclick="location.href='/embyvites/provideinfo.php'"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"><img src="/embyvites/images/mail.png"height="27" width="27"></img> Step 2: send me your contact information.</h1>
                 <div class="clearfix"></div>
              </div>
         </div>
         <div class="hp-link col-sm-12 col-lg-12">
-            <div class="content-box blue-bg slick-slide"onclick="location.href='https://tacohouse.us/embyvites/enjoy.php'"style="cursor: pointer;">
+            <div class="content-box blue-bg slick-slide"onclick="location.href='/embyvites/enjoy.php'"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"><img src="/embyvites/images/emby.png" height="27" width="27"></img> Step 3: Enjoy Emby.</h1>
                 <div class="clearfix"></div>

@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
     			. "\n\n " .  "Their Emby Connect Username is -" . $embyconnect . "\n\n" . "Their email address is -" . $from;
     $headers = "From:" . $from;
     mail($to,$subject,$message,$headers);
-    header('Location: https://tacohouse.us/embyvites/emailconfirm.php');
+    header('Location: /embyvites/emailconfirm.php');
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
 ?>
@@ -174,7 +174,7 @@ if(isset($_POST['submit'])){
 		   <div class="slick-slide"> <input type="submit" name="submit" value="Send It" id="submit"></div>
 		</form><br>
     <div class="hp-link col-sm-12 col-lg-12">
-            <div class="slick-slide"><div class="content-box red-orange-bg"onclick="location.href='https://tacohouse.us/embyvites/'"style="cursor: pointer;">
+            <div class="slick-slide"><div class="content-box red-orange-bg"onclick="location.href='/embyvites/'"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
                 <div class="clearfix"></div>

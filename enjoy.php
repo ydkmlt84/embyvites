@@ -108,7 +108,7 @@ $embyurl="https://tacohouse.us/emby";
 		    iPhone, iPad, Android, Amazon FireTV, Amazon FireTV Stick, 4th gen AppleTV, XboxONE, Roku, and many other devices. Choose your option below. &#8595
 		</div><br>
 		<div class="hp-link col-sm-12 col-lg-12">
-            <div class="slick-slide"><div class="content-box green-bg" onclick="location.href='https://tacohouse.us/embyvites/tvapps.php'"style="cursor: pointer;">
+            <div class="slick-slide"><div class="content-box green-bg" onclick="location.href='/embyvites/tvapps.php'"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"> Find the EmbyTV Apps here &nbsp<div class="aka">(for a device connected to your TV)</div> </h1>
                 </div><div class="clearfix"></div>
@@ -116,7 +116,7 @@ $embyurl="https://tacohouse.us/emby";
         </div>
 		</div>
 		<div class="hp-link col-sm-12 col-lg-12">
-            <div class="slick-slide"><div class="content-box blue-bg" onclick="location.href='https://tacohouse.us/embyvites/mobileapps.php'"style="cursor: pointer;">
+            <div class="slick-slide"><div class="content-box blue-bg" onclick="location.href='/embyvites/mobileapps.php'"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"> Find the mobile Emby Apps here &nbsp<div class="aka">(for your phone/tablet)</div></h1>
                 </div><div class="clearfix"></div>
@@ -124,7 +124,7 @@ $embyurl="https://tacohouse.us/emby";
         </div>
 		</div>
 		<div class="hp-link col-sm-12 col-lg-12">
-            <div class="slick-slide"><div class="content-box yellow-bg" onclick="location.href='https://tacohouse.us/embyvites/webapps.php'"style="cursor: pointer;">
+            <div class="slick-slide"><div class="content-box yellow-bg" onclick="location.href='/embyvites/webapps.php'"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center">Find the Emby Web App here &nbsp<div class="aka">(no special device needed)</div></h1>
                 <div class="clearfix"></div>
@@ -132,7 +132,7 @@ $embyurl="https://tacohouse.us/emby";
         </div>
 			</div>
 		<div class="hp-link col-sm-12 col-lg-12">
-            <div class="slick-slide"><div class="content-box red-orange-bg" onclick="location.href='https://tacohouse.us/embyvites/'"style="cursor: pointer;">
+            <div class="slick-slide"><div class="content-box red-orange-bg" onclick="location.href='/embyvites/'"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
                 <div class="clearfix"></div>

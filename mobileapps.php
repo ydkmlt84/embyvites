@@ -115,7 +115,7 @@ $embyurl="https://tacohouse.us/emby";
 		</div><br>
 	</body>
 	<div class="hp-link col-sm-6 col-lg-6">
-					<div class="slick-slide"><div class="content-box blue-bg" onclick="location.href='https://tacohouse.us/embyvites/enjoy.php'"style="cursor: pointer;">
+					<div class="slick-slide"><div class="content-box blue-bg" onclick="location.href='/embyvites/enjoy.php'"style="cursor: pointer;">
 			<!-- Change "Your Text Here" with whatever you want the button to say -->
 							<h1 style="margin: 10px" class="text-uppercase text-center">Back to Device Options</h1>
 							<div class="clearfix"></div>
@@ -123,7 +123,7 @@ $embyurl="https://tacohouse.us/emby";
 			</div>
 		</div>
 	<div class="hp-link col-sm-6 col-lg-6">
-					<div class="slick-slide"><div class="content-box red-orange-bg" onclick="location.href='https://tacohouse.us/embyvites/'"style="cursor: pointer;">
+					<div class="slick-slide"><div class="content-box red-orange-bg" onclick="location.href='/embyvites/'"style="cursor: pointer;">
 			<!-- Change "Your Text Here" with whatever you want the button to say -->
 							<h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
 							<div class="clearfix"></div>

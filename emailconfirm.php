@@ -89,7 +89,7 @@ $embyurl="https://tacohouse.us/emby";
 				After you complete any steps in that email continue back to Embyvites and do step 3.
 		</div>
 		<div class="hp-link1 col-sm-12 col-lg-12">
-            <div class="content-box green-bg" onclick="location.href='https://tacohouse.us/embyvites/'"style="cursor: pointer;">
+            <div class="content-box green-bg" onclick="location.href='/embyvites/'"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
                 <div class="clearfix"></div>
