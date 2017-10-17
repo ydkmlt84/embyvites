@@ -29,7 +29,7 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<!--Embyvites CSS -->
-				<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
+				<link rel="stylesheet" href="/embyvites/css/embyvites-style.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -102,10 +102,11 @@ $embyurl="https://tacohouse.us/emby";
 				.caption {
 					color:#ffffff !important;
 					text-align: center;
+					cursor: default;
 				}
 </style>
 	<body>
-		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
+		<center><img src="/embyvites/images/taco_256.png" width=150px height=150px></center>
 		<br>
 		<div class="enjoy"> Mobile Emby Apps! </div>
 		<div class="leechers">
@@ -135,11 +136,12 @@ $embyurl="https://tacohouse.us/emby";
 <!--/////////////-->
 
 <div class="col-lg-6 gray-bg">
-                <div class="thumbnail">
-                  <div class="caption">
+                <div class="caption" >
                     <h3>ANDROID</h3>
-</div><a href="https://emby.media/emby-for-android-mobile.html">
-	<img class="slick-slide"src="https://tacohouse.us/images/android1.png" alt="thumbnail" width="91.5%"style="border-radius:5px;">
+</div>
+	<div class="thumbnail slick-slide">
+	<a href="https://emby.media/emby-for-android-mobile.html">
+	<img src="/embyvites/images/android1.png" alt="thumbnail" width="91.5%"style="border-radius:5px;">
 
 </div></a>
               </div>
@@ -149,8 +151,8 @@ $embyurl="https://tacohouse.us/emby";
 </div><br>
 															<div class="thumbnail slick-slide">
 							                  <a href="https://emby.media/emby-for-ios.html">
-								<img src="https://tacohouse.us/images/ios.png"  width="70%"alt="thumbnail" style="border-radius:5px;"><br>
-								<img src="https://tacohouse.us/images/ios2.png"  width="70%"alt="thumbnail" style="border-radius:5px;">
+								<img src="/embyvites/images/ios.png"  width="70%"alt="thumbnail" style="border-radius:5px;"><br>
+								<img src="/embyvites/images/ios2.png"  width="70%"alt="thumbnail" style="border-radius:5px;">
 
 							</div></a>
 							              </div>

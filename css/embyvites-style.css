@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*
+ * 	This is my first attempt at creating a separate style sheet
+ *	For the most part I have no idea what I am doing
+ *
+*/
+
+body {
+    			background-color: #242424 !important;
+    			padding-top:30px !important;
+    			padding-bottom:12px !important;
+		}
+	a 	{
+			text-decoration: none !important;
+		}
+	.welcome-text {
+			font-size:24px;
+			text-align: center;
+			padding: 5px;
+			text-shadow: 1px 1px #ffffff;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			color:#2da836;
+      cursor: default;
+		}
+	.enjoy {
+			font-size:24px;
+			text-align: center;
+			padding: 5px;
+			text-shadow: 1px 1px #ffffff;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			color:#2da836;
+      cursor: default;
+		}
+	.leechers {
+			text-align: center;
+	    		color: #ffffff;
+    			background: #545454;
+    			padding-left: 5px;
+    			padding-right: 5px;
+    			display: block;
+    			border: 1px solid black;
+    			border-radius: 4px;
+    			width: 88%;
+    			margin-left: auto;
+    			margin-right: auto;
+    			font-size: 20px;
+          cursor: default;
+		}
+
+	.smiley {
+			display: inline-block;
+		}

@@ -29,7 +29,7 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<!--Embyvites CSS -->
-				<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
+				<link rel="stylesheet" href="/embyvites/css/embyvites-style.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -94,7 +94,7 @@ $embyurl="https://tacohouse.us/emby";
 
 	</style>
 	<body>
-		<center><img src="https://tacohouse.us/images/taco_256.png" width=100px height=100px></center>
+		<center><img src="/embyvites/images/taco_256.png" width=100px height=100px></center>
 		<br>
 		<div class="enjoy"> Emby TV Apps! </div>
 		<div class="leechers">
@@ -129,7 +129,7 @@ $embyurl="https://tacohouse.us/emby";
             <h4><strong>FIRE TV</strong></h4>
             <!-- 16:9 aspect ratio -->
             <div class="embed-responsive embed-responsive-16by9 slick-slide">
-							<a href="https://emby.media/emby-for-fire-tv.html"><img src="https://tacohouse.us/images/amazonemby.png" style="width: 100%; border-radius:8px;"></div></a>
+							<a href="https://emby.media/emby-for-fire-tv.html"><img src="/embyvites/images/amazonemby.png" style="width: 100%; border-radius:8px;"></div></a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -137,7 +137,7 @@ $embyurl="https://tacohouse.us/emby";
             <h4><strong>XBOX</strong></h4>
             <!-- 16:9 aspect ratio -->
             <div class="embed-responsive embed-responsive-16by9 slick-slide">
-							<a href="https://emby.media/emby-theater-xboxone.html"><img src="https://tacohouse.us/images/xbox.png" style="width: 100%;border-radius:5px;"></div></a>
+							<a href="https://emby.media/emby-theater-xboxone.html"><img src="/embyvites/images/xbox.png" style="width: 100%;border-radius:5px;"></div></a>
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@ $embyurl="https://tacohouse.us/emby";
             <h4><strong>APPLE TV</strong></h4>
             <!-- 16:9 aspect ratio -->
             <div class="embed-responsive embed-responsive-16by9 slick-slide">
-							<a href="https://emby.media/emby-for-appletv.html"><img src="https://tacohouse.us/images/appletv.png" style="width: 100%; border-radius:5px;
+							<a href="https://emby.media/emby-for-appletv.html"><img src="/embyvites/images/appletv.png" style="width: 100%; border-radius:5px;
 "></div></a>
           </div>
         </div>
@@ -157,7 +157,7 @@ $embyurl="https://tacohouse.us/emby";
             <h4><strong>ROKU</strong></h4>
             <!-- 16:9 aspect ratio -->
             <div class="embed-responsive embed-responsive-16by9 slick-slide">
-							<a href="https://emby.media/emby-for-roku.html"><img src="https://tacohouse.us/images/rokuhome1.jpg" style="
+							<a href="https://emby.media/emby-for-roku.html"><img src="/embyvites/images/rokuhome1.jpg" style="
     width: 100%; border-radius:5px;
 "></div></a>
           </div>

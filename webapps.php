@@ -28,9 +28,9 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/metisMenu/dist/metisMenu.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
-<!--Embyvites CSS -->
-		<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
-<!------------------>
+		<!--Embyvites CSS -->
+				<link rel="stylesheet" href="/embyvites/css/embyvites-style.css?v=<?php echo INSTALLEDVERSION; ?>">
+		<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/google-material-color/dist/palette.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -97,10 +97,11 @@ $embyurl="https://tacohouse.us/emby";
                         font-style: italic !important;
                         font-size: 12px !important;
                         text-align: center !important;
+												color: red;
         }
 				</style>
 	<body>
-		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
+		<center><img src="/embyvites/images/taco_256.png" width=100px height=100px></center>
 		<br>
 		<div class="enjoy"> Emby Web App</div>
 		<div class="leechers">
@@ -118,7 +119,7 @@ $embyurl="https://tacohouse.us/emby";
 			<div class="hp-link col-sm-12 col-lg-12">
 	            <div class="slick-slide"><div class="content-box green-bg" onclick="window.open('https://tv.emby.media')"style="cursor: pointer;">
 					<!-- Change "Your Text Here" with whatever you want the button to say -->
-	                <h1 style="margin: 10px" class="text-uppercase text-center">Open Up The Web-App Tab (steps below)&nbsp<div class="aka">will open in a new tab</div></h1>
+	                <h1 style="margin: 10px" class="text-uppercase text-center">Open Up The Web-App Tab (steps below)&nbsp<div class="aka">will open in a new tab.<span style="color:black">&nbsp you should bookmark the page that opens.</span></div></h1>
 	                <div class="clearfix"></div>
 	             </div>
 	        </div>
@@ -136,7 +137,7 @@ $embyurl="https://tacohouse.us/emby";
 					<h4><strong>First</strong></h4>
 					<!-- 16:9 aspect ratio -->
 					<div class="embed-responsive embed-responsive-16by9 slick-slide">
-						<img src="https://tacohouse.us/images/webapp1.png" onclick="location.href='https://tacohouse.us/embyvites/webapp1.php'"style="
+						<img src="/embyvites/images/webapp1.png" onclick="location.href='https://tacohouse.us/embyvites/screenshots/webapp1.php'"style="
 	width: 100%; border-radius:5px;">
 </div>
 </div>
@@ -146,7 +147,17 @@ $embyurl="https://tacohouse.us/emby";
 		<h4><strong>Second</strong></h4>
 		<!-- 16:9 aspect ratio -->
 		<div class="embed-responsive embed-responsive-16by9 slick-slide">
-			<img src="https://tacohouse.us/images/webapp2.png" onclick="location.href='https://tacohouse.us/embyvites/screenshots/webapp2.php'"style="
+			<img src="/embyvites/images/webapp2.png" onclick="location.href='https://tacohouse.us/embyvites/screenshots/webapp2.php'"style="
+width: 100%; border-radius:5px;">
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+	<div class="content-box big-box box-shadow gray-bg">
+		<h4><strong>Third</strong></h4>
+		<!-- 16:9 aspect ratio -->
+		<div class="embed-responsive embed-responsive-16by9 slick-slide">
+			<img src="/embyvites/images/webapp3.png" onclick="location.href='https://tacohouse.us/embyvites/screenshots/webapp3.php'"style="
 width: 100%; border-radius:5px;">
 </div>
 </div>

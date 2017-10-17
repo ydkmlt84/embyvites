@@ -29,7 +29,7 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<!--Embyvites CSS -->
-				<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
+				<link rel="stylesheet" href="/embyvites/css/embyvites-style.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -100,7 +100,7 @@ $embyurl="https://tacohouse.us/emby";
                                 }
 </style>
 	<body>
-		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
+		<center><img src="/embyvites/images/taco_256.png" width=150px height=150px></center>
 		<br>
 		<div class="enjoy"> Finally! </div>
 		<div class="leechers">

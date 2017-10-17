@@ -29,7 +29,7 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<!--Embyvites CSS -->
-				<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
+				<link rel="stylesheet" href="/embyvites/css/embyvites-style.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -82,7 +82,7 @@ $embyurl="https://tacohouse.us/emby";
 
 </style>
 	<body>
-		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
+		<center><img src="/embyvites/images/taco_256.png" width=150px height=150px></center>
 		<br>
 		<div class="leechers">
 		    Your contact information has been sent to me. Give me a short while and as long as your info is correct, you should receive an email with your invite.
@@ -95,6 +95,6 @@ $embyurl="https://tacohouse.us/emby";
                 <div class="clearfix"></div>
              </div>
         </div>
-		<center><img class="soclose" src="https://tacohouse.us/images/soclose.jpg" width=375px height=240px></center>
+		<center><img class="soclose" src="/embyvites/images/soclose.jpg" width=375px height=240px></center>
 	</body>
 </html>

@@ -29,7 +29,7 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<!--Embyvites CSS -->
-				<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
+				<link rel="stylesheet" href="/embyvites/css/embyvites-style.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -69,23 +69,7 @@ $embyurl="https://tacohouse.us/emby";
 </head>
 
 <style>
-	input {
-			text-align:center;
-			border-radius:4px;
-			display:inline-block;
-		}
-	.entry-field {
-			text-align:center;
-		}
-	.fields-labels {
-			display:inline-block;
-		}
-	.hp-link :hover {
-		border:.5px ;
-	}
-	.content-box{
-		border-radius:5px;
-	}
+
 	/* This block will give you some animations when hovering over the big buttons */
 			.slick-slide {
 					max-width: 100%;
@@ -106,8 +90,8 @@ $embyurl="https://tacohouse.us/emby";
 			}
 </style>
 	<body>
-		<center><img src="https://tacohouse.us/images/thlogo.png" width=250px height=30px></center>
-		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
+		<center><img src="/embyvites/images/thlogo.png" width=250px height=30px></center>
+		<center><img src="/embyvites/images/taco_256.png" width=150px height=150px></center>
 		<br>
 			<div class="welcome-text">
 				Welcome To Embyvites!
@@ -115,27 +99,27 @@ $embyurl="https://tacohouse.us/emby";
 		<div class="leechers">
 		    Each button below is a link. They are numbered in the order you must complete each one. This is how
 		    you get access to your next big thing.  You won't need that bogus Kodi stick anymore. Unless you're going to use
-		    it with the Emby app. <div class="smiley"><img src="https://tacohouse.us/images/big emoticons 4.png" height="27" width="27"></img></div>
+		    it with the Emby app. <div class="smiley"><img src="/embyvites/images/big emoticons 4.png" height="27" width="27"></img></div>
 		</div>
 		<br>
 		<div class="hp-link col-sm-12 col-lg-12"> <a target="_blank" href="https://goo.gl/8iW7Ye">
             <div class="content-box green-bg slick-slide" style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"> <img src="https://tacohouse.us/images/pencil.png" height="27" width="27"></img> Step 1: sign up for emby connect then come back here. </h1>
+                <h1 style="margin: 10px" class="text-uppercase text-center"> <img src="/embyvites/images/pencil.png" height="27" width="27"></img> Step 1: sign up for emby connect then come back here. </h1>
                 <div class="clearfix"></div>
              </div>
         </div></a>
         <div class="hp-link col-sm-12 col-lg-12">
             <div class="content-box orange-bg slick-slide"onclick="location.href='https://tacohouse.us/embyvites/provideinfo.php'"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"><img src="https://tacohouse.us/images/mail.png"height="27" width="27"></img> Step 2: send me your contact information.</h1>
+                <h1 style="margin: 10px" class="text-uppercase text-center"><img src="/embyvites/images/mail.png"height="27" width="27"></img> Step 2: send me your contact information.</h1>
                 <div class="clearfix"></div>
              </div>
         </div>
         <div class="hp-link col-sm-12 col-lg-12">
             <div class="content-box blue-bg slick-slide"onclick="location.href='https://tacohouse.us/embyvites/enjoy.php'"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center"><img src="https://tacohouse.us/images/emby.png" height="27" width="27"></img> Step 3: Enjoy Emby.</h1>
+                <h1 style="margin: 10px" class="text-uppercase text-center"><img src="/embyvites/images/emby.png" height="27" width="27"></img> Step 3: Enjoy Emby.</h1>
                 <div class="clearfix"></div>
              </div>
         </div>

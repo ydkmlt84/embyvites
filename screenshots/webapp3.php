@@ -101,11 +101,11 @@ body {
 	<body>
 
 
-				<div class="big-box gray-bg" onclick="location.href='https://tacohouse.us/embyvites/modaltesting.php'">
+				<div class="big-box gray-bg" onclick="location.href='https://tacohouse.us/embyvites/webapps.php'">
 					<h4><strong>HOW TO COMPLETE THE EMBY CONNECT STEPS (click anywhere to go back)</strong></h4><br>
 					<!-- 16:9 aspect ratio -->
 					<div class="embed-responsive-16by9 embed-responsive">
-						<img src="https://tacohouse.us/images/webapp1.png" style="
+						<img src="https://tacohouse.us/images/webapp3.png" style="
 	width: 100%; border-radius:5px;">
 </div>
 

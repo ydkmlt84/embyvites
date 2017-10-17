@@ -45,7 +45,7 @@ if(isset($_POST['submit'])){
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
     <!--Embyvites CSS -->
-				<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
+				<link rel="stylesheet" href="/embyvites/css/embyvites-style.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -154,7 +154,7 @@ if(isset($_POST['submit'])){
   </style>
 	<body>
 
-		<center><img src="https://tacohouse.us/images/taco_256.png" width=119px height=119px></center>
+		<center><img src="/embyvites/images/taco_256.png" width=119px height=119px></center>
 		<br>
 			<form action="" method= "post"><div class="fields-labels"> Name </div><br>
 			<div class="entry-field">
@@ -174,7 +174,7 @@ if(isset($_POST['submit'])){
 		   <div class="slick-slide"> <input type="submit" name="submit" value="Send It" id="submit"></div>
 		</form><br>
     <div class="hp-link col-sm-12 col-lg-12">
-            <div class="slick-slide"><div class="content-box red-orange-bg"onclick="location.href='https://tacohouse.us/embyvites'"style="cursor: pointer;">
+            <div class="slick-slide"><div class="content-box red-orange-bg"onclick="location.href='https://tacohouse.us/embyvites/'"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
                 <div class="clearfix"></div>
