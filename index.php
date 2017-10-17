@@ -114,7 +114,7 @@ $embyurl="https://tacohouse.us/emby";
 			</div><br>
 		<div class="leechers">
 		    Each button below is a link. They are numbered in the order you must complete each one. This is how
-		    you get access to your next big thing.  You wont need that bogus Kodi stick anymore. Unless you're going to use
+		    you get access to your next big thing.  You won't need that bogus Kodi stick anymore. Unless you're going to use
 		    it with the Emby app. <div class="smiley"><img src="https://tacohouse.us/images/big emoticons 4.png" height="27" width="27"></img></div>
 		</div>
 		<br>

@@ -146,7 +146,7 @@ $embyurl="https://tacohouse.us/emby";
 		<h4><strong>Second</strong></h4>
 		<!-- 16:9 aspect ratio -->
 		<div class="embed-responsive embed-responsive-16by9 slick-slide">
-			<img src="https://tacohouse.us/images/webapp2.png" onclick="location.href='https://tacohouse.us/embyvites/webapp2.php'"style="
+			<img src="https://tacohouse.us/images/webapp2.png" onclick="location.href='https://tacohouse.us/embyvites/screenshots/webapp2.php'"style="
 width: 100%; border-radius:5px;">
 </div>
 </div>

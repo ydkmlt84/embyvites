@@ -1,6 +1,6 @@
 <?php
 // Include functions if not already included
-require_once('../functions.php');
+require_once('../../functions.php');
 //Set variables
 
 $admin_email="justin@turnedaround.net";
@@ -46,7 +46,7 @@ $embyurl="https://tacohouse.us/emby";
 
 		<link rel="stylesheet" href="<?=$baseURL;?>/css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/css/weather-icons.css?v=<?php echo INSTALLEDVERSION; ?>">
-		<link rel="stylesheet" href="../bower_components/animate.css/animate.min.css?v=<?php echo INSTALLEDVERSION; ?>">
+		<link rel="stylesheet" href="../../bower_components/animate.css/animate.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 
 		<link rel="icon" type="image/png" href="<?=$baseURL;?>/images/favicon/android-chrome-192x192.png" sizes="192x192">
 		<link rel="apple-touch-icon" sizes="180x180" href="<?=$baseURL;?>/images/favicon/apple-touch-icon.png">
@@ -57,11 +57,11 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="shortcut icon" href="<?=$baseURL;?>/images/favicon/favicon.ico">
 		<meta name="msapplication-config" content="<?=$baseURL;?>/images/favicon/browserconfig.xml">
 		<meta name="theme-color" content="#2d89ef">
-		<link rel="stylesheet" type="text/css" href="../css/addtohomescreen.css">
-		<script src="../js/addtohomescreen.js"></script>
-		<script src="../js/push.js"></script>
+		<link rel="stylesheet" type="text/css" href="../../css/addtohomescreen.css">
+		<script src="../../js/addtohomescreen.js"></script>
+		<script src="../../js/push.js"></script>
 		<!--Other-->
-		<script src="../js/ajax.js?v=<?php echo INSTALLEDVERSION; ?>"></script>
+		<script src="../../js/ajax.js?v=<?php echo INSTALLEDVERSION; ?>"></script>
 		<!--[if lt IE 9]>
 		<script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
 		<script src="bower_components/respondJs/dest/respond.min.js"></script>
@@ -101,7 +101,7 @@ body {
 	<body>
 
 
-				<div class="big-box gray-bg" onclick="location.href='https://tacohouse.us/embyvites/modaltesting.php'">
+				<div class="big-box gray-bg" onclick="location.href='https://tacohouse.us/embyvites/webapps.php'">
 					<h4><strong>HOW TO COMPLETE THE EMBY CONNECT STEPS (click anywhere to go back)</strong></h4><br>
 					<!-- 16:9 aspect ratio -->
 					<div class="embed-responsive-16by9 embed-responsive">
