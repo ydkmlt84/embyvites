@@ -28,7 +28,9 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/metisMenu/dist/metisMenu.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
-
+<!--Embyvites CSS -->
+		<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
+<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/google-material-color/dist/palette.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -67,37 +69,6 @@ $embyurl="https://tacohouse.us/emby";
 </head>
 <style>
 
-	body {
-    		background-color: #242424;
-    		padding-top:30px !important;
-    		padding-bottom:12px !important;
-		}
-	a 	{
-			text-decoration: none !important;
-		}
-	.enjoy {
-			font-size:24px;
-			text-align: center;
-			padding: 5px;
-			text-shadow: 1px 1px #ffffff;
-			font-family: Arial, Helvetica, sans-serif;
-			font-weight: bold;
-			color:#2da836;
-		}
-	.leechers {
-			text-align: center;
-    		color: #ffffff;
-    		background: #545454;
-    		padding-left: 5px;
-    		padding-right: 5px;
-    		display: block;
-    		border: 1px solid black;
-    		border-radius: 4px;
-    		width: 88%;
-    		margin-left: auto;
-    		margin-right: auto;
-    		font-size: 20px;
-		}
 	.hp-link {
 		width:70% !important;
 		float:none;
@@ -116,79 +87,18 @@ $embyurl="https://tacohouse.us/emby";
         .slick-slide:hover {
             -moz-transform: scale(1.1);
             -webkit-transform: scale(1.1);
-            transform: scale(.975);
+            transform: scale(.989);
             z-index: 10000000;
             border-radius: 7px;
             opacity: 1 !important;
 
         }
 				.aka {
-					font-style: italic;
-					font-size: 20px;
-					display: inline-block;
-				}
-				/*gallery images*/
-				div.gallery {
-				    border-radius:6px;
-				}
-
-				div.gallery:hover {
-					cursor:pointer;
-
-				}
-
-				div.gallery img {
-				    width: 95%;
-				    height: 300px;
-				    border-top-left-radius:6px;
-				    border-top-right-radius:6px;
-				}
-
-				div.desc {
-				    padding: 15px;
-				    text-align: center;
-				    background: #42b382;
-				    text-transform:uppercase;
-				    color:#ffffff;
-				    font-size:24px;
-				    width:95%;
-				    cursor:default;
-				}
-
-				* {
-				    box-sizing: border-box;
-				}
-
-				.responsive {
-				    padding: 6px 6px;
-				    float:left;
-				    margin-left:55px;
-				    width: 45%;
-				    display:block;
-
-				}
-
-				@media only screen and (max-width: 700px){
-				    .responsive {
-				        width: 49.99999%;
-				        margin: 6px 0;
-				    }
-				}
-
-				@media only screen and (max-width: 500px){
-				    .responsive {
-				        width: 100%;
-				    }
-				}
-
-				.clearfix:after {
-				    content: "";
-				    display: table;
-				    clear: both;
-				}
-
-
-</style>
+                        font-style: italic !important;
+                        font-size: 12px !important;
+                        text-align: center !important;
+        }
+				</style>
 	<body>
 		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
 		<br>
@@ -205,6 +115,14 @@ $embyurl="https://tacohouse.us/emby";
              </div>
         </div>
 			</div>
+			<div class="hp-link col-sm-12 col-lg-12">
+	            <div class="slick-slide"><div class="content-box green-bg" onclick="window.open('https://tv.emby.media')"style="cursor: pointer;">
+					<!-- Change "Your Text Here" with whatever you want the button to say -->
+	                <h1 style="margin: 10px" class="text-uppercase text-center">Open Up The Web-App Tab (steps below)&nbsp<div class="aka">will open in a new tab</div></h1>
+	                <div class="clearfix"></div>
+	             </div>
+	        </div>
+				</div>
 		<div class="hp-link col-sm-12 col-lg-12">
             <div class="slick-slide"><div class="content-box red-orange-bg" onclick="location.href='https://tacohouse.us/embyvites/'"style="cursor: pointer;">
 				<!-- Change "Your Text Here" with whatever you want the button to say -->
@@ -213,58 +131,21 @@ $embyurl="https://tacohouse.us/emby";
              </div>
         </div>
 			</div>
-			<!--gallery stuff-->
-			<!--/////////////-->
-			<!--/////////////-->
-			<!--/////////////-->
-
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="https://emby.media/emby-theater-xboxone.html">
-			      <div class="slick-slide"><img src="https://tacohouse.us/images/xbox.png" alt="XBoxONE" width="300" height="200">
-			    </div></a>
-			    <div class="desc">XboxONE</div>
-			  </div>
-			</div>
-
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="https://emby.media/emby-for-roku.html">
-			      <div class="slick-slide"><img src="https://tacohouse.us/images/rokuhome1.jpg" alt="Roku" width="300" height="200">
-			    </a></div>
-			    <div class="desc">Roku</div>
-			  </div>
-			</div>
-
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="https://emby.media/emby-for-appletv.html">
-			      <div class="slick-slide"><img src="https://tacohouse.us/images/appletv.png" alt="AppleTV" width="300" height="200">
-			    </a></div>
-			    <div class="desc">AppleTV</div>
-			  </div>
-			</div>
-
-			<div class="responsive">
-			  <div class="gallery">
-			     <div class="slick-slide"><image id="myBtn" src="https://tacohouse.us/images/amazonemby.png" alt="Amazon" width="300" height="200">
-			    </div>
-			    <div class="desc">FireTV</div>
-			  </div>
-			</div>
-
-<div class="modal fade gallery in" tabindex="-1" role="dialog" style="display: block;">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                <h4 class="modal-title">Modal title</h4>
-            </div>
-            <div class="modal-body"><img src=""></div>
-        </div>
-    </div>
+			<div class="col-lg-6">
+				<div class="content-box big-box box-shadow gray-bg">
+					<h4><strong>First</strong></h4>
+					<!-- 16:9 aspect ratio -->
+					<div class="embed-responsive embed-responsive-16by9 slick-slide">
+						<img src="https://tacohouse.us/images/webapp1.png" onclick="location.href='https://tacohouse.us/embyvites/webapp1.php'"style="
+	width: 100%; border-radius:5px;">
 </div>
-
-<button type="button" class="btn btn-primary waves waves-effect waves-float" data-toggle="modal" data-target=".gallery">Large modal</button>
+<div class="col-lg-6">
+	<div class="content-box big-box box-shadow gray-bg">
+		<h4><strong>Second</strong></h4>
+		<!-- 16:9 aspect ratio -->
+		<div class="embed-responsive embed-responsive-16by9 slick-slide">
+			<img src="https://tacohouse.us/images/webapp2.png" onclick="location.href='https://tacohouse.us/embyvites/webapp2.php'"style="
+width: 100%; border-radius:5px;">
+</div>
 
 </html>

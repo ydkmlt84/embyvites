@@ -28,7 +28,9 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/metisMenu/dist/metisMenu.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
-
+		<!--Embyvites CSS -->
+				<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
+		<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/google-material-color/dist/palette.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -66,38 +68,9 @@ $embyurl="https://tacohouse.us/emby";
 		<![endif]-->
 </head>
 <style>
-
-	body {
-    		background-color: #242424;
-    		padding-top:30px !important;
-    		padding-bottom:12px !important;
-		}
-	a 	{
-			text-decoration: none !important;
-		}
-	.enjoy {
-			font-size:24px;
-			text-align: center;
-			padding: 5px;
-			text-shadow: 1px 1px #ffffff;
-			font-family: Arial, Helvetica, sans-serif;
-			font-weight: bold;
-			color:#2da836;
-		}
-	.leechers {
-			text-align: center;
-    		color: #ffffff;
-    		background: #545454;
-    		padding-left: 5px;
-    		padding-right: 5px;
-    		display: block;
-    		border: 1px solid black;
-    		border-radius: 4px;
-    		width: 88%;
-    		margin-left: auto;
-    		margin-right: auto;
-    		font-size: 20px;
-		}
+body {
+	background-color: #273238 !important;
+}
 	.hp-link {
 		width:70% !important;
 		float:none;
@@ -120,40 +93,20 @@ $embyurl="https://tacohouse.us/emby";
             z-index: 10000000;
             border-radius: 7px;
             opacity: 1 !important;
-
         }
+.big-box {
+	height: 100%;
+}
 				</style>
 	<body>
-		<center><img src="https://tacohouse.us/images/taco_256.png" width=150px height=150px></center>
-		<br>
-		<div class="enjoy"> Emby Web App</div>
-		<div class="leechers">
-		    Using the Web App is not the ideal solution, but a solution none the less. There are a few steps left to go this route.
-				I will try to outline the steps the best I can.
-		</div><br>
-		<div class="hp-link col-sm-12 col-lg-12">
-            <div class="slick-slide"><div class="content-box light-blue-bg" onclick="location.href='https://tacohouse.us/embyvites/enjoy.php'"style="cursor: pointer;">
-				<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center">Back to Device Options</h1>
-                <div class="clearfix"></div>
-             </div>
-        </div>
-			</div>
-		<div class="hp-link col-sm-12 col-lg-12">
-            <div class="slick-slide"><div class="content-box red-orange-bg" onclick="location.href='https://tacohouse.us/embyvites/'"style="cursor: pointer;">
-				<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
-                <div class="clearfix"></div>
-             </div>
-        </div>
-			</div>
-			<div class="col-lg-6">
-				<div class="content-box big-box box-shadow gray-bg">
-					<h4><strong>ROKU</strong></h4>
+
+
+				<div class="big-box gray-bg" onclick="location.href='https://tacohouse.us/embyvites/webapps.php'">
+					<h4><strong>HOW TO COMPLETE THE EMBY CONNECT STEPS (click anywhere to go back)</strong></h4><br>
 					<!-- 16:9 aspect ratio -->
-					<div class="embed-responsive embed-responsive-16by9 slick-slide">
-						<img src="https://tacohouse.us/images/xbox.png" onclick="location.href='https://google.com'"style="
-	width: 100%; border-radius:5px;
-"></div></a>
+					<div class="embed-responsive-16by9 embed-responsive">
+						<img src="https://tacohouse.us/images/webapp2.png" style="
+	width: 100%; border-radius:5px;">
+</div>
 
 </html>

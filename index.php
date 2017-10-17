@@ -28,7 +28,9 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/metisMenu/dist/metisMenu.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
-
+		<!--Embyvites CSS -->
+				<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
+		<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/google-material-color/dist/palette.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -67,21 +69,6 @@ $embyurl="https://tacohouse.us/emby";
 </head>
 
 <style>
-
-	body {
-    	background-color: #242424;
-    	padding-top:30px !important;
-    	padding-bottom:12px !important;
-		}
-	.welcome-text {
-		font-size:24px;
-		text-align: center;
-		padding: 5px;
-		text-shadow: 1px 1px #ffffff;
-		font-family: Arial, Helvetica, sans-serif;
-		font-weight: bold;
-		color:#2da836;
-		}
 	input {
 			text-align:center;
 			border-radius:4px;
@@ -92,27 +79,6 @@ $embyurl="https://tacohouse.us/emby";
 		}
 	.fields-labels {
 			display:inline-block;
-		}
-	.leechers {
-			text-align: center;
-    		color: #ffffff;
-    		background: #545454;
-    		padding-left: 5px;
-    		padding-right: 5px;
-    		display: block;
-    		border: 1px solid black;
-    		border-radius: 4px;
-    		width: 88%;
-    		margin-left: auto;
-    		margin-right: auto;
-    		font-size: 20px;
-		}
-	.smiley {
-			display: inline-block;
-		}
-	a		{
-			text-decoration: none !important;
-
 		}
 	.hp-link :hover {
 		border:.5px ;
@@ -160,7 +126,7 @@ $embyurl="https://tacohouse.us/emby";
              </div>
         </div></a>
         <div class="hp-link col-sm-12 col-lg-12">
-            <div class="content-box yellow-bg slick-slide"onclick="location.href='https://tacohouse.us/embyvites/provideinfo.php'"style="cursor: pointer;">
+            <div class="content-box orange-bg slick-slide"onclick="location.href='https://tacohouse.us/embyvites/provideinfo.php'"style="cursor: pointer;">
 <!-- Change "Your Text Here" with whatever you want the button to say -->
                 <h1 style="margin: 10px" class="text-uppercase text-center"><img src="https://tacohouse.us/images/mail.png"height="27" width="27"></img> Step 2: send me your contact information.</h1>
                 <div class="clearfix"></div>

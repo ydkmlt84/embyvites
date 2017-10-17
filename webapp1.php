@@ -68,104 +68,45 @@ $embyurl="https://tacohouse.us/emby";
 		<![endif]-->
 </head>
 <style>
-		.hp-link {
-			width:80%;
-			margin-left: auto;
-			margin-right: auto;
-			float: none;
-			padding-bottom: 6px;
-		}
-/* This block will give you some animations when hovering over the "Recently Added" items (v1.38) */
+body {
+	background-color: #273238 !important;
+}
+	.hp-link {
+		width:70% !important;
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+		/* This block will give you some animations when hovering over the big buttons */
         .slick-slide {
             max-width: 100%;
             -moz-transition: all 0.3s;
             -webkit-transition: all 0.3s;
             transition: all 0.3s;
+            display:block;
+            float:none;
         }
         .slick-slide:hover {
             -moz-transform: scale(1.1);
             -webkit-transform: scale(1.1);
-            transform: scale(.987);
+            transform: scale(.989);
             z-index: 10000000;
-            border-radius: 5px;
+            border-radius: 7px;
             opacity: 1 !important;
-
         }
-
-	</style>
+.big-box {
+	height: 100%;
+}
+				</style>
 	<body>
-		<center><img src="https://tacohouse.us/images/taco_256.png" width=100px height=100px></center>
-		<br>
-		<div class="enjoy"> Emby TV Apps! </div>
-		<div class="leechers">
-		    Click on the example image for the device that you are going to use and you will be taken
-				to the Emby website, for download and use instructions.
-		</div><br>
-	</body>
-	<div class="hp-link col-sm-6 col-lg-6">
-					<div class="slick-slide"><div class="content-box blue-bg" onclick="location.href='https://tacohouse.us/embyvites/enjoy.php'"style="cursor: pointer;">
-			<!-- Change "Your Text Here" with whatever you want the button to say -->
-							<h1 style="margin: 10px" class="text-uppercase text-center">Back to Device Options</h1>
-							<div class="clearfix"></div>
-					 </div>
-			</div>
-		</div>
-		<div class="hp-link col-sm-12 col-lg-12">
-						<div class="slick-slide"><div class="content-box red-orange-bg" onclick="location.href='https://tacohouse.us/embyvites/'"style="cursor: pointer;">
-				<!-- Change "Your Text Here" with whatever you want the button to say -->
-								<h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
-								<div class="clearfix"></div>
-						 </div>
-				</div>
-			</div>
-<!--gallery stuff-->
-<!--/////////////-->
-<!--/////////////-->
-<!--/////////////-->
-
-<div class="row zero-m">
-        <div class="col-lg-6">
-          <div class="content-box big-box box-shadow gray-bg">
-            <h4><strong>FIRE TV</strong></h4>
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9 slick-slide">
-							<a href="https://emby.media/emby-for-fire-tv.html"><img src="https://tacohouse.us/images/amazonemby.png" style="width: 100%; border-radius:8px;"></div></a>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="content-box big-box box-shadow gray-bg">
-            <h4><strong>XBOX</strong></h4>
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9 slick-slide">
-							<a href="https://emby.media/emby-theater-xboxone.html"><img src="https://tacohouse.us/images/xbox.png" style="width: 100%;border-radius:5px;"></div></a>
-          </div>
-        </div>
-      </div>
-
-			<div class="row zero-m">
-        <div class="col-lg-6">
-          <div class="content-box big-box box-shadow gray-bg">
-            <h4><strong>APPLE TV</strong></h4>
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9 slick-slide">
-							<a href="https://emby.media/emby-for-appletv.html"><img src="https://tacohouse.us/images/appletv.png" style="width: 100%; border-radius:5px;
-"></div></a>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="content-box big-box box-shadow gray-bg">
-            <h4><strong>ROKU</strong></h4>
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9 slick-slide">
-							<a href="https://emby.media/emby-for-roku.html"><img src="https://tacohouse.us/images/rokuhome1.jpg" style="
-    width: 100%; border-radius:5px;
-"></div></a>
-          </div>
-        </div>
-      </div>
 
 
-<div class="clearfix"></div><br>
-
+				<div class="big-box gray-bg" onclick="location.href='https://tacohouse.us/embyvites/webapps.php'">
+					<h4><strong>HOW TO COMPLETE THE EMBY CONNECT STEPS (click anywhere to go back)</strong></h4><br>
+					<!-- 16:9 aspect ratio -->
+					<div class="embed-responsive-16by9 embed-responsive">
+						<img src="https://tacohouse.us/images/webapp1.png" style="
+	width: 100%; border-radius:5px;">
+</div>
 
 </html>

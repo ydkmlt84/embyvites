@@ -44,7 +44,9 @@ if(isset($_POST['submit'])){
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/metisMenu/dist/metisMenu.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
-
+    <!--Embyvites CSS -->
+				<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
+		<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/google-material-color/dist/palette.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -82,11 +84,6 @@ if(isset($_POST['submit'])){
 		<![endif]-->
 </head>
 	<style>
-		body {
-    	background-color: #242424;
-    	padding-top:12px !important;
-    	padding-bottom:12px !important;
-		}
 		input {
 			text-align:center;
 			border-radius:4px;
@@ -120,10 +117,7 @@ if(isset($_POST['submit'])){
     	margin-right: auto;
     	float: none;
 	}
-	a {
-    text-decoration: none !important;
-  }
-	input#submit {
+		input#submit {
 		background: #3f51b5;
 		display:block;
 		margin-left:auto;

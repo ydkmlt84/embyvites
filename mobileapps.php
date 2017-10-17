@@ -28,7 +28,9 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/metisMenu/dist/metisMenu.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
-
+		<!--Embyvites CSS -->
+				<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
+		<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/google-material-color/dist/palette.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -66,43 +68,6 @@ $embyurl="https://tacohouse.us/emby";
 		<![endif]-->
 </head>
 <style>
-
-	body {
-    		background-color: #242424;
-    		padding-top:30px !important;
-    		padding-bottom:12px !important;
-		}
-	input {
-			text-align:center;
-			border-radius:4px;
-			display:inline-block;
-		}
-	a {
-			text-decoration: none !important;
-
-		}
-	.enjoy {
-			font-size:24px;
-			text-align: center;
-			padding: 5px;
-			text-shadow: 1px 1px #ffffff;
-			font-family: Arial, Helvetica, sans-serif;
-			font-weight: bold;
-			color:#2da836;
-		}
-	.leechers {
-			text-align: center;
-    		color: #ffffff;
-    		background: #273238;
-    		padding-left: 5px;
-    		padding-right: 5px;
-    		display: block;
-    		border-radius: 4px;
-    		width: 78%;
-    		margin-left: auto;
-    		margin-right: auto;
-    		font-size: 20px;
-		}
 		.hp-link {
 			width:80%;
 			margin-left: auto;
@@ -111,71 +76,6 @@ $embyurl="https://tacohouse.us/emby";
 			display:block;
 			padding:2px;
 		}
-	.embyscreenshots {
-		padding:5px;
-		border-radius:6px;
-		display: inline-block;
-		margin-left:auto;
-		margin-right:auto;
-	}
-/*gallery images*/
-div.gallery {
-    border-radius:6px;
-}
-
-div.gallery:hover {
-
-}
-
-div.gallery img {
-    width: 95%;
-    height: 600	px;
-    border-top-left-radius:6px;
-    border-top-right-radius:6px;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-    background: #42b382;
-    text-transform:uppercase;
-    color:#ffffff;
-    font-size:24px;
-    width:95%;
-    cursor:default;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 6px 6px;
-    float:left;
-    margin-left:55px;
-    width: 45%;
-    display:block;
-
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 /* This block will give you some animations when hovering over the "Recently Added" items (v1.38) */
         .slick-slide {
             max-width: 100%;
@@ -193,11 +93,6 @@ div.desc {
             opacity: 1 !important;
 
         }
-        .whole-gallery {
-        	margin-left:auto;
-        	margin-right:auto;
-        	float:none;
-				}
         .thumbnail {
 					background: #273238;
 					border:none;
@@ -234,7 +129,7 @@ div.desc {
 					 </div>
 			</div>
 		</div>
-<!--gallery stuff-->
+<!--mobile screenshots stuff-->
 <!--/////////////-->
 <!--/////////////-->
 <!--/////////////-->

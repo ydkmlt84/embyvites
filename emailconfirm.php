@@ -28,7 +28,9 @@ $embyurl="https://tacohouse.us/emby";
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/metisMenu/dist/metisMenu.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/Waves/dist/waves.min.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=<?php echo INSTALLEDVERSION; ?>">
-
+		<!--Embyvites CSS -->
+				<link rel="stylesheet" href="<?=$baseURL;?>/embyvites-css/style.css?v=<?php echo INSTALLEDVERSION; ?>">
+		<!------------------>
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-select.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/js/selects/cs-skin-elastic.css?v=<?php echo INSTALLEDVERSION; ?>">
 		<link rel="stylesheet" href="<?=$baseURL;?>/bower_components/google-material-color/dist/palette.css?v=<?php echo INSTALLEDVERSION; ?>">
@@ -66,48 +68,6 @@ $embyurl="https://tacohouse.us/emby";
 		<![endif]-->
 </head>
 <style>
-
-	body {
-    		background-color: #242424;
-    		padding-top:30px !important;
-    		padding-bottom:12px !important;
-		}
-	input {
-			text-align:center;
-			border-radius:4px;
-			display:inline-block;
-		}
-	a {
-			text-decoration: none !important;
-
-		}
-	.enjoy {
-			font-size:24px;
-			text-align: center;
-			padding: 5px;
-			text-shadow: 1px 1px #ffffff;
-			font-family: Arial, Helvetica, sans-serif;
-			font-weight: bold;
-			color:#2da836;
-		}
-	.leechers {
-			text-align: center;
-    		color: #ffffff;
-    		background: #545454;
-    		padding-left: 5px;
-    		padding-right: 5px;
-    		display: block;
-    		border: 1px solid black;
-    		border-radius: 4px;
-    		width: 88%;
-    		margin-left: auto;
-    		margin-right: auto;
-    		font-size: 20px;
-		}
-	#step2 {
-			font-size:22px;
-			color:#2da836;
-	}
 	.hp-link1 {
 			width:300px !important;
 			display:block;
