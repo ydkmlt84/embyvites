@@ -7,24 +7,27 @@
 
 body {
     			background-color: #242424 !important;
-    			padding-top:30px !important;
-    			padding-bottom:12px !important;
+    			padding-top:20px !important;
+    			padding-bottom:20px !important;
 		}
 	a 	{
-			text-decoration: none !important;
+			    text-decoration: none !important;
 		}
+  .logo {
+    text-align: center;
+  }
 	.heading-text {
-			font-size:24px;
-			text-align: center;
-			padding: 5px;
-			text-shadow: 1px 1px #ffffff;
-			font-family: Arial, Helvetica, sans-serif;
-			font-weight: bold;
-			color:#2da836;
-      cursor: default;
+			   font-size:24px;
+			   text-align: center;
+	       padding: 5px;
+         text-shadow: 1px 1px #ffffff;
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         color:#2da836;
+         cursor: default;
 		}
 	.explain {
-			text-align: center;
+			    text-align: center;
 	    		color: #ffffff;
     			background: #545454;
     			padding-left: 5px;
@@ -38,16 +41,15 @@ body {
     			font-size: 20px;
           cursor: default;
 		}
-
-	.smiley {
+  .smiley {
 			   display: inline-block;
          text-align: center !important;
 		}
   .smiley img {
         height: 27px !important;
   }
-  .hp-link {
-    cursor: pointer;
+  .hp-link{
+        cursor: pointer;
   }
   .hp-link img {
         width: 27px;
@@ -70,5 +72,36 @@ body {
 
   }
   .notice {
-    padding-bottom: 18px;
+      padding-bottom: 18px;
   }
+  /* Style for the contact info page /
+  //////////////////////////////////*/
+  input {
+      text-align:center;
+      border-radius:4px;
+      display:inline-block;
+      width:200px;
+  }
+  textarea#relationship {
+      height:100px;
+      width:300px;
+      border-radius:4px;
+      resize: none;
+  }
+  input#submit {
+      background: #3f51b5;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      width:300px;
+      text-transform:uppercase;
+      font-size:24px;
+      color:#fff;
+      border:none;
+  }
+  .provideinfo {
+      padding: 10px;
+      text-align: center;
+  }
+  /* End styling for contact info page /
+  ////////////////////////////////////*/

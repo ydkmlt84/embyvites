@@ -9,7 +9,7 @@ $baseURL="https://tacohouse.us/";
 
 //Email Function Testing//
 if(isset($_POST['submit'])){
-    $to = "justin@turnedaround.net"; // this is your Email address
+    $to = "justin@turnedaround.net";
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
@@ -19,7 +19,14 @@ if(isset($_POST['submit'])){
     $message = 	$first_name . " " . $last_name . " " . "wants to join Emby and has added this information:" . "\n\n" . $relationship
     			. "\n\n " .  "Their Emby Connect Username is -" . $embyconnect . "\n\n" . "Their email address is -" . $from;
     $headers = "From:" . $from;
+        //Email to the person requesting
+    $subject2 = "Your Emby Connect info has been sent";
+    $message2= "Thank you" . " " . $first_name . " " . $last_name. "." . " " . "Your Emby Connect information has been sent to me." . "\n\n" .
+    "I have to enter your information into my server and you should receive an invite soon.
+    If you have not received an invite approx. 2 hours, from the time you received this, please contact me and let me know." . "\n\n" . "Welcome to TacoHouse Inc.";
+    $headers2= "From:" . $to;
     mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2);
     header('Location: /embyvites/emailconfirm.php');
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
@@ -84,101 +91,42 @@ if(isset($_POST['submit'])){
 		<![endif]-->
 </head>
 	<style>
-		input {
-			text-align:center;
-			border-radius:4px;
-			display:inline-block;
-			width:200px;
-		}
-	.entry-field {
-			text-align:center;
-		}
-	.large-entry-field {
-			text-align:center;
-			display:block;
-	}
-	textarea#relationship {
-		height:100px;
-		width:300px;
-		border-radius:4px;
-	}
-	.fields-labels {
-			display:block;
-			text-align:center;
-			color:#2da836;
-			text-shadow: 1px 1px #ffffff;
-			font-weight: bold;
-			font-size:20px;
-		}
-	.hp-link {
-			width:300px;
-			display:block;
-			margin-left: auto;
-    	margin-right: auto;
-    	float: none;
-	}
-		input#submit {
-		background: #3f51b5;
-		display:block;
-		margin-left:auto;
-		margin-right:auto;
-		width:300px;
-		text-align:center;
-		cursor:pointer;
-		text-transform:uppercase;
-		overflow:hidden;
-		font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-		font-size:24px;
-		color:#fff;
-		border:none;
-		font-weight:500;
-}
-/* This block will give you some animations when hovering over the big buttons */
-    .slick-slide {
-        max-width: 100%;
-        -moz-transition: all 0.3s;
-        -webkit-transition: all 0.3s;
-        transition: all 0.3s;
-        display:block;
-        float:none;
-    }
-    .slick-slide:hover {
-        -moz-transform: scale(1.1);
-        -webkit-transform: scale(1.1);
-        transform: scale(.975);
-        z-index: 10000000;
-        border-radius: 7px;
-        opacity: 1 !important;
-
-    }
+  #taco {
+  	height: 100px;
+  	width: 100px;
+  }
+  .hp-link {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
   </style>
 	<body>
+    <div class="logo">
+		    <img id="taco" src="/embyvites/images/taco_256.png">
+    </div>
+    <div class="provideinfo">
+			<form action="" method= "post">
+            <div class="heading-text"> Name </div>
+			          <input type="text" name="first_name" required="required" placeholder="First Name">
+                <input type="text" name="last_name" required="required" placeholder="Last Name">
 
-		<center><img src="/embyvites/images/taco_256.png" width=119px height=119px></center>
-		<br>
-			<form action="" method= "post"><div class="fields-labels"> Name </div><br>
-			<div class="entry-field">
-                <input type="text" name="first_name" required="required" placeholder="First Name">
-                        <input type="text" name="last_name" required="required" placeholder="Last Name">
-			</div><br>
-			<div class="fields-labels"> Email Address / Emby Connect Username </div><br>
-			<div class="entry-field">
-                <input type="text" name="email" required="required" placeholder="something@email.com">
-                	<input type="text" name="embyconnect" required="required" placeholder="embyconnectusername">
-            </div><br>
-            <div class="fields-labels"> How do we know each other? </div><br>
-			<div class="large-entry-field">
-                <textarea id="relationship" name= "relationship" required="required" wrap="soft" maxlength="150"
-                placeholder="Say something brief that tells me how we know each other, or how you found out about Emby."></textarea>
-            </div><br>
-		   <div class="slick-slide"> <input type="submit" name="submit" value="Send It" id="submit"></div>
-		</form><br>
-    <div class="hp-link col-sm-12 col-lg-12">
-            <div class="slick-slide"><div class="content-box red-orange-bg"onclick="location.href='/embyvites/'"style="cursor: pointer;">
-				<!-- Change "Your Text Here" with whatever you want the button to say -->
-                <h1 style="margin: 10px" class="text-uppercase text-center">Back to Embyvites</h1>
-                <div class="clearfix"></div>
-             </div>
+		        <div class="heading-text"> Email Address / Emby Connect Username </div>
+			          <input type="text" name="email" required="required" placeholder="something@email.com">
+                <input type="text" name="embyconnect" required="required" placeholder="embyconnectusername">
+
+            <div class="heading-text"> How do we know each other? </div>
+			          <textarea id="relationship" name= "relationship" required="required" wrap="soft" maxlength="150"
+                placeholder="Say something brief that tells me how we know each other, or how you found out about Emby.(max character-150)"></textarea>
+
+		        <div class="slick-slide"> <input type="submit" name="submit" value="Send It" id="submit"></div>
+      </form>
+    </div>
+    <div class="buttons">
+      <div class="hp-link col-sm-4 col-lg-4">
+            <div class="content-box red-orange-bg slick-slide text-uppercase text-center" onclick="location.href='/embyvites/'">
+                <h1 style="margin: 10px">Back to Embyvites</h1>
+            </div>
         </div>
 			</div>
 	</body>

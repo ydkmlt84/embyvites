@@ -92,7 +92,7 @@ $embyurl="https://tacohouse.us/emby";
 		    it with the Emby app. <div class="smiley"><img src="/embyvites/images/big emoticons 4.png"></div>
 					</div>
 			</div>
-		<div id="buttons clearfix">
+		<div class="buttons">
 					<div class="hp-link col-sm-12 col-lg-12 text-center text-uppercase"> <a target="_blank" href="https://goo.gl/8iW7Ye">
             	<div class="content-box green-bg slick-slide">
                 	<h1 style="margin: 10px"><img src="/embyvites/images/pencil.png">
