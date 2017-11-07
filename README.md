@@ -1,2 +1,2 @@
 # embyvites
-Some sort of way for me to add users by having them do most of the leg work.
+ A roundabout way for me to let users get added, with them doing the legwork.
