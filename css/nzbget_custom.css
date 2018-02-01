@@ -5,6 +5,3 @@ color:#999999 !important;
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
 border-radius: 4px;
 }
-.img-logo {
-  background-image: url(https://tacohouse.us/images/thlogo_dark1.png);
-}
