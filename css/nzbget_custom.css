@@ -56,7 +56,9 @@ tbody {
     div.check:hover {
     border: 1px solid black;
 }
-
+div.check {
+  background-color: white !important;
+}
 .table-striped tbody tr.checked:nth-child(odd) td, .checked .progress {
     background-color: transparent;
 }
@@ -95,4 +97,52 @@ tr.checked, tr.checked td, tr.checked:nth-child(odd) .progress {
 }
 .table tbody tr:hover, .table tbody tr:hover td {
     background-color: transparent;
+}
+.modal-body {
+  background-color: #3a87ad;
+  color:#333333;
+}
+.modal-header h3 {
+  color:#414141;
+  background-color:#3a87ad;
+}
+.modal-header {
+  background-color:#3a87ad;
+  border-bottom:3px solid #414141;
+}
+.modal-footer {
+  background-color:#3a87ad;
+  border-top:3px solid #414141;
+  box-shadow:unset;
+}
+
+.modal {
+  background-color: #3a87ad;
+  border:5px solid #2c2c2c;
+}
+.modal-body .form-horizontal .control-label{
+  color:#414141;
+  font-weight:bold;
+}
+.modal-body p {
+  color:whitesmoke;
+}
+.modal-body h1 {
+  color:#2c2c2c
+}
+.modal-body h2 {
+  color:#414141;
+}
+.modal-body p a {
+  color: #414141;
+  text-decoration:underline
+}
+.modal-body .table thead th {
+    color: #414141;
+    font-weight:bold;
+    padding: 10px;
+}
+
+table > thead > tr > th.table-selector {
+  color:black;
 }
