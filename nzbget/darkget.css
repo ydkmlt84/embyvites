@@ -56,6 +56,9 @@ tbody {
     width: 180px;
     border-radius: 2px;
   }
+  .navbar .dropdown-menu:after{
+        border-bottom: 6px solid #414141;
+  }
   .alert-info {
      font-weight: bold;
      border-radius: unset;
