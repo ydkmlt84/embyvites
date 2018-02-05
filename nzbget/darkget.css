@@ -111,6 +111,15 @@ tr.checked, tr.checked td, tr.checked:nth-child(odd) .progress {
   background-color: #3a87ad;
   color:#333333;
 }
+.modal-body::-webkit-scrollbar {
+  width:.6em;
+  background-color:transparent;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  background-color: #626262;
+  -webkit-border-radius:5px;
+}
 .modal-header h3 {
   color:#414141;
   background-color:#3a87ad;
@@ -151,7 +160,10 @@ tr.checked, tr.checked td, tr.checked:nth-child(odd) .progress {
     font-weight:bold;
     padding: 10px;
 }
-
+.table.check-simple tbody tr.checked:hover, .table.check-simple tbody tr.checked:hover td {
+    background-color: transparent;
+    cursor:default;
+}
 table > thead > tr > th.table-selector {
   color:black;
 }
@@ -169,6 +181,7 @@ border: 1px solid #2c2c2c;
 .progress-block {
   color:black;
   border-radius:3px;
+  border: 1px solid white;
 }
 .progress {
   background:#2c2c2c;
@@ -181,4 +194,23 @@ border: 1px solid #2c2c2c;
 }
 #DownloadsTable > tbody > tr > td:nth-child(7) > div > div.progress{
   background-color:white;
+}
+#DownloadsTable > tbody > tr > td:nth-child(7) > div > div.progress.progress-striped.progress-success{
+  background-color:transparent;
+}
+.pagination a {
+  color:whitesmoke;
+}
+.pagination .disabled span, .pagination .disabled a, .pagination .disabled a:hover{
+  color:#414141;
+}
+.pagination a:hover {
+  color:#3a87ad;
+  font-weight:bold;
+  background-color:#414141;
+}
+.pagination .active a{
+  color:#3a87ad;
+  font-weight:bold;
+  background-color:#414141;
 }
