@@ -166,3 +166,19 @@ border: 1px solid #2c2c2c;
 #RefreshMenu > li > a > table > tbody{
   border:0px;
 }
+.progress-block {
+  color:black;
+  border-radius:3px;
+}
+.progress {
+  background:#2c2c2c;
+}
+#DownloadsTable > tbody > tr > td:nth-child(7) > div > div.progress.progress-striped.progress-none{
+  background-color:transparent;
+}
+#DownloadsTable > tbody > tr.checked >td:nth-child(7) >div >div.progress{
+  background-color:white;
+}
+#DownloadsTable > tbody > tr > td:nth-child(7) > div > div.progress{
+  background-color:white;
+}
