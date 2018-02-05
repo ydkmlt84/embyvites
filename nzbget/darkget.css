@@ -315,3 +315,15 @@ span.help-option-title {
 #UpdateDialog_Versions #UpdateDialog_AvailRow td:hover, #UpdateDialog_Versions tr:hover td {
     background-color: transparent;
 }
+#PlayMenu {
+  background:#414141;
+}
+#PlayMenu > li{
+  color:white;
+  text-shadow:unset;
+  font-weight:bold;
+  font-size:12px;
+}
+#PlayMenu > li > a > table > tbody{
+  border:0px;
+}
