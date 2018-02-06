@@ -26,6 +26,9 @@ body::-webkit-scrollbar-thumb {
     min-width: 21px;
     background: #626262;
 }
+#NavLinks .badge{
+  background:#626262
+}
 tr.checked, tr.checked td, tr.checked:nth-child(odd) .progress {
     background-color: #3a87ad;
 }
@@ -175,7 +178,6 @@ tr.checked, tr.checked td, tr.checked:nth-child(odd) .progress {
     color: #414141;
     font-weight:bold;
     padding: 10px;
-    color: #414141;
 }
 .table.check-simple tbody tr.checked:hover, .table.check-simple tbody tr.checked:hover td {
     background-color: transparent;
