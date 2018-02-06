@@ -219,6 +219,7 @@ border: 1px solid #2c2c2c;
 }
 .pagination a {
   color:whitesmoke;
+  border:unset;
 }
 .pagination .disabled span, .pagination .disabled a, .pagination .disabled a:hover{
   color:#414141;
@@ -226,12 +227,13 @@ border: 1px solid #2c2c2c;
 .pagination a:hover {
   color:#3a87ad;
   font-weight:bold;
-  background-color:#414141;
+  background:transparent;
 }
 .pagination .active a{
   color:#3a87ad;
   font-weight:bold;
   background-color:#414141;
+  border-radius:4px;
 }
 span.help-option-title {
     color: #bbbbbb;
