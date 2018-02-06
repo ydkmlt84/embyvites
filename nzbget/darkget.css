@@ -18,9 +18,10 @@ body::-webkit-scrollbar-thumb {
 }
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
     border-radius: 3px;
-    background: none;
-    border: 1.25px solid grey;
-    color: white;
+    background: #414141;
+    border: 0px;
+    color: #b3b3b3;
+    border-radius:2px;
 }
 #NavLinks .badge.badge2 {
     min-width: 21px;
