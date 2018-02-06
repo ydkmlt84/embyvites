@@ -175,7 +175,7 @@ tr.checked, tr.checked td, tr.checked:nth-child(odd) .progress {
     color: #414141;
     font-weight:bold;
     padding: 10px;
-    color: #3a87ad;
+    color: #414141;
 }
 .table.check-simple tbody tr.checked:hover, .table.check-simple tbody tr.checked:hover td {
     background-color: transparent;
