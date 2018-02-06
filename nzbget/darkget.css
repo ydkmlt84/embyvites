@@ -22,6 +22,10 @@ body::-webkit-scrollbar-thumb {
     border: 1.25px solid grey;
     color: white;
 }
+#NavLinks .badge.badge2 {
+    min-width: 21px;
+    background: #626262;
+}
 tr.checked, tr.checked td, tr.checked:nth-child(odd) .progress {
     background-color: #3a87ad;
 }
@@ -30,6 +34,7 @@ tr.checked, tr.checked td, tr.checked:nth-child(odd) .progress {
 }
 .table thead th {
   color:black;
+  padding:8px;
 }
 .btn {
   text-transform: uppercase;
@@ -67,7 +72,11 @@ tbody {
      border:0px;
      background-color:#414141;
      text-shadow:unset;
-
+     color:#3a87ad;
+     text-transform:capitalize;
+   }
+   .alert-info h4 {
+     text-transform:uppercase;
    }
     div.check:hover {
     border: 1px solid black;
@@ -166,6 +175,7 @@ tr.checked, tr.checked td, tr.checked:nth-child(odd) .progress {
     color: #414141;
     font-weight:bold;
     padding: 10px;
+    color: #3a87ad;
 }
 .table.check-simple tbody tr.checked:hover, .table.check-simple tbody tr.checked:hover td {
     background-color: transparent;
@@ -188,7 +198,7 @@ border: 1px solid #2c2c2c;
 .progress-block {
   color:black;
   border-radius:3px;
-  border: 1px solid white;
+  background-color:rgba(255,255,255, .2)
 }
 .progress {
   background:#2c2c2c;
@@ -197,10 +207,10 @@ border: 1px solid #2c2c2c;
   background-color:transparent;
 }
 #DownloadsTable > tbody > tr.checked >td:nth-child(7) >div >div.progress{
-  background-color:white;
+  background-color:rgba(248, 148, 6, .8);
 }
 #DownloadsTable > tbody > tr > td:nth-child(7) > div > div.progress{
-  background-color:white;
+  background-color:rgba(248, 148, 6, .8);
 }
 #DownloadsTable > tbody > tr > td:nth-child(7) > div > div.progress.progress-striped.progress-success{
   background-color:transparent;
@@ -283,10 +293,12 @@ span.help-option-title {
 #ConfigContent .editlarge {
     background: #626262;
     color: white;
+    border:0px;
 }
 #ConfigContent .editsmall {
     background: #626262;
     color: white;
+    border:0px;
 }
 .config-settitle {
   background-color: transparent;
@@ -298,6 +310,7 @@ span.help-option-title {
     width: 70px;
     background: #626261;
     color: white;
+    border:0px;
 }
 #ConfigData > div > div > div > span.add-on{
   background-color:#414141;
@@ -305,6 +318,7 @@ span.help-option-title {
   text-shadow:unset;
   font-weight:bold;
   cursor:default;
+  border:0px;
 }
 #ConfigData > div > div > div > span > label.checkbox {
   color:white;
@@ -314,6 +328,10 @@ span.help-option-title {
     width: 100%;
     background-color: #626262;
     color: white;
+    border:0px;
+}
+#ConfigData > div > div > table {
+  border-collapse:unset;
 }
 #UpdateDialog_Versions #UpdateDialog_AvailRow td:hover, #UpdateDialog_Versions tr:hover td {
     background-color: transparent;
@@ -329,4 +347,11 @@ span.help-option-title {
 }
 #PlayMenu > li > a > table > tbody{
   border:0px;
+}
+div.toolbox-length select {
+    width: 75px;
+    height: 28px;
+    background-color: #414141;
+    color: white;
+    border: 0px;
 }
