@@ -457,3 +457,12 @@ div.toolbox-length select {
   color:white;
   text-shadow:unset;
 }
+#HistoryTab_Toolbar > div.btn-group.open > ul{
+  background:#414141
+}
+#HistoryActionsMenu {
+  background:#414141
+}
+#FilterMenu {
+  background:#414141;
+}
