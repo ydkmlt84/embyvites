@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 body {
 background-color: #272727 !important;
 background-image: url("https://i.imgur.com/TYh5E3n.png");
@@ -18,30 +19,53 @@ body::-webkit-scrollbar-thumb {
 }
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
     border-radius: 3px;
-    background: #414141;
+    background: transparent;
     border: 0px;
-    color: #b3b3b3;
+    color: #3a87ad;
+    font-size:13px;
+    font-weight:bold;
     border-radius:2px;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform:uppercase;
 }
+.navbar .nav > li > a {
+    color: #626262;
+    font-size: 13px;
+    font-weight:bold;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform:uppercase;
+}
+.navbar .nav > li > a:hover {
+    color: #3a87ad;
+    font-size: 13px;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform:uppsercase;
+   }
+
 #NavLinks .badge.badge2 {
-    min-width: 21px;
     background: #626262;
+    border-radius:5px;
+    font-size:12px;
 }
 #NavLinks .badge{
-  background:#626262
+  background:#626262;
+  border-radius:5px;
+  font-size:12px;
 }
 tr.checked, tr.checked td, tr.checked:nth-child(odd) .progress {
     background-color: #3a87ad;
 }
 .table thead th a{
-  color: black;
+  color: white;
 }
 .table thead th {
-  color:black;
+  color:white;
   padding:8px;
+  border-radius: 0px;
 }
 .btn {
   text-transform: uppercase;
+  font-family:'Nanum Gothic', sans-serif;
 }
 .table-striped tbody tr:nth-child(odd) td, .table-striped tbody tr:nth-child(odd) th {
   color:black;
@@ -49,8 +73,16 @@ tr.checked, tr.checked td, tr.checked:nth-child(odd) .progress {
 td.dropdown-cell {
   color:white;
 }
-thead {
-  background-color: #3a87ad;
+thead{
+  background:#414141;
+}
+
+#DownloadsTab thead{
+   background-color: #414141;
+  box-shadow: 1px 1px #3a87ad;
+  border-top-right-radius:3px;
+}
+
 }
 tbody {
   background-color: transparent;
@@ -71,13 +103,14 @@ tbody {
   .alert-info {
      font-weight: bold;
      border-radius: unset;
-     border-bottom-left-radius: 4px;
-     border-bottom-right-radius: 4px;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
      border:0px;
      background-color:#414141;
      text-shadow:unset;
-     color:#3a87ad;
+     color:white;
      text-transform:capitalize;
+     box-shadow: 1px 1px #3a87ad;
    }
    .alert-info h4 {
      text-transform:uppercase;
@@ -227,13 +260,20 @@ border: 1px solid #2c2c2c;
 }
 .pagination a:hover {
   color:#3a87ad;
+  background:transparent;
   font-weight:bold;
+  border-radius: 4px;
+}
+.pagination li:first-child a:hover{
+  background:transparent;
+}
+.pagination li:last-child a:hover{
   background:transparent;
 }
 .pagination .active a{
   color:#3a87ad;
   font-weight:bold;
-  background-color:#414141;
+  background-color:transparent;
   border-radius:4px;
 }
 span.help-option-title {
@@ -353,10 +393,67 @@ span.help-option-title {
 #PlayMenu > li > a > table > tbody{
   border:0px;
 }
+.dropdown-menu a{
+  color:white;
+  background:transparent;
+}
 div.toolbox-length select {
     width: 75px;
     height: 28px;
     background-color: #414141;
     color: white;
     border: 0px;
+}
+#DownloadsToolbar > div > button {
+  background:#414141;
+  color:white;
+  text-shadow:unset;
+}
+#DownloadsToolbar > div > button:hover {
+  background:#414141;
+  color:#3a87ad;
+  text-shadow:unset;
+}
+#HistoryTab_Toolbar > div > button {
+  background:#414141;
+  color:white;
+  text-shadow:unset;
+}
+#HistoryTab_Toolbar > div > button:hover {
+  background:#414141;
+  color:#3a87ad;
+  text-shadow:unset;
+  font-weight:bold;
+}
+.badge {
+  background-color:#626262;
+  color:white;
+  border-radius:4px;
+}
+#MessagesTab_Toolbar > div > button{
+  background:#414141;
+  color:white;
+  text-shadow:unset;
+}
+#MessagesTab_Toolbar > div > button:hover{
+  background:#414141;
+  color:#3a87ad;
+  font-weight:bold;
+  text-shadow:unset;
+}
+.config-header .btn{
+  background:#414141;
+  color:white;
+  text-shadow:unset;
+  }
+  #Config_ViewMenu {
+  background:transparent;
+  background-color:#414141;
+  color:white;
+  text-shadow:unset;
+  border:0px;
+}
+.menu-header {
+  color:white;
+  text-shadow:unset;
 }
